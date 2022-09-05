@@ -20,19 +20,19 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -52,7 +52,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -88,36 +88,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--radix_placeholder_meta_tags-->
   <title>Pierre Brigode: Publications</title>
-  
-  
-  
-  
+
+
+
+
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Pierre Brigode: Publications"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Pierre Brigode"/>
-  
+
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Pierre Brigode: Publications"/>
-  
+
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
-  
+
   <script type="text/json" id="radix-rmarkdown-metadata">
   {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","output"]}},"value":[{"type":"character","attributes":{},"value":["Publications"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
   <meta name="distill:offset" content=""/>
-  
+
   <script type="application/javascript">
-  
+
     window.headroom_prevent_pin = false;
-  
+
     window.document.addEventListener("DOMContentLoaded", function (event) {
-  
+
       // initialize headroom for banner
       var header = $('header').get(0);
       var headerHeight = header.offsetHeight;
@@ -134,13 +134,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       if(window.location.hash)
         headroom.unpin();
       $(header).addClass('headroom--transition');
-  
+
       // offset scroll location for banner on hash change
       // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
       window.addEventListener("hashchange", function(event) {
         window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
       });
-  
+
       // responsive menu
       $('.distill-site-header').each(function(i, val) {
         var topnav = $(this);
@@ -149,7 +149,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           topnav.toggleClass('responsive');
         });
       });
-  
+
       // nav dropdowns
       $('.nav-dropbtn').click(function(e) {
         $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
@@ -164,99 +164,99 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       });
     });
   </script>
-  
+
   <style type="text/css">
-  
+
   /* Theme (user-documented overrideables for nav appearance) */
-  
+
   .distill-site-nav {
     color: rgba(255, 255, 255, 0.8);
     background-color: #0F2E3D;
     font-size: 15px;
     font-weight: 300;
   }
-  
+
   .distill-site-nav a {
     color: inherit;
     text-decoration: none;
   }
-  
+
   .distill-site-nav a:hover {
     color: white;
   }
-  
+
   @media print {
     .distill-site-nav {
       display: none;
     }
   }
-  
+
   .distill-site-header {
-  
+
   }
-  
+
   .distill-site-footer {
-  
+
   }
-  
-  
+
+
   /* Site Header */
-  
+
   .distill-site-header {
     width: 100%;
     box-sizing: border-box;
     z-index: 3;
   }
-  
+
   .distill-site-header .nav-left {
     display: inline-block;
     margin-left: 8px;
   }
-  
+
   @media screen and (max-width: 768px) {
     .distill-site-header .nav-left {
       margin-left: 0;
     }
   }
-  
-  
+
+
   .distill-site-header .nav-right {
     float: right;
     margin-right: 8px;
   }
-  
+
   .distill-site-header a,
   .distill-site-header .title {
     display: inline-block;
     text-align: center;
     padding: 14px 10px 14px 10px;
   }
-  
+
   .distill-site-header .title {
     font-size: 18px;
     min-width: 150px;
   }
-  
+
   .distill-site-header .logo {
     padding: 0;
   }
-  
+
   .distill-site-header .logo img {
     display: none;
     max-height: 20px;
     width: auto;
     margin-bottom: -4px;
   }
-  
+
   .distill-site-header .nav-image img {
     max-height: 18px;
     width: auto;
     display: inline-block;
     margin-bottom: -3px;
   }
-  
-  
-  
+
+
+
   @media screen and (min-width: 1000px) {
     .distill-site-header .logo img {
       display: inline-block;
@@ -271,17 +271,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       padding-left: 12px;
     }
   }
-  
-  
+
+
   .distill-site-header .nav-toggle {
     display: none;
   }
-  
+
   .nav-dropdown {
     display: inline-block;
     position: relative;
   }
-  
+
   .nav-dropdown .nav-dropbtn {
     border: none;
     outline: none;
@@ -295,7 +295,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-top: 1px;
     z-index: 2;
   }
-  
+
   .nav-dropdown-content {
     display: none;
     position: absolute;
@@ -310,18 +310,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-top: 4px;
     padding-bottom: 4px;
   }
-  
+
   .nav-dropdown-content hr {
     margin-top: 4px;
     margin-bottom: 4px;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  
+
   .nav-dropdown-active {
     display: block;
   }
-  
+
   .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
     color: black;
     padding: 6px 24px;
@@ -329,7 +329,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     display: block;
     text-align: left;
   }
-  
+
   .nav-dropdown-content .nav-dropdown-header {
     display: block;
     padding: 5px 24px;
@@ -339,21 +339,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: #999999;
     white-space: nowrap;
   }
-  
+
   .nav-dropdown:hover .nav-dropbtn {
     color: white;
   }
-  
+
   .nav-dropdown-content a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
   .nav-right .nav-dropdown-content {
     margin-left: -45%;
     right: 0;
   }
-  
+
   @media screen and (max-width: 768px) {
     .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
     .distill-site-header a.nav-toggle {
@@ -373,8 +373,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       margin-left: 0;
     }
   }
-  
-  
+
+
   @media screen and (max-width: 768px) {
     .distill-site-header.responsive {position: relative; min-height: 500px; }
     .distill-site-header.responsive a.nav-toggle {
@@ -399,9 +399,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       text-align: left;
     }
   }
-  
+
   /* Site Footer */
-  
+
   .distill-site-footer {
     width: 100%;
     overflow: hidden;
@@ -412,19 +412,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-bottom: 30px;
     text-align: center;
   }
-  
+
   /* Headroom */
-  
+
   d-title {
     padding-top: 6rem;
   }
-  
+
   @media print {
     d-title {
       padding-top: 4rem;
     }
   }
-  
+
   .headroom {
     z-index: 1000;
     position: fixed;
@@ -432,36 +432,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     left: 0;
     right: 0;
   }
-  
+
   .headroom--transition {
     transition: all .4s ease-in-out;
   }
-  
+
   .headroom--unpinned {
     top: -100px;
   }
-  
+
   .headroom--pinned {
     top: 0;
   }
-  
+
   /* adjust viewport for navbar height */
   /* helps vertically center bootstrap (non-distill) content */
   .min-vh-100 {
     min-height: calc(100vh - 100px) !important;
   }
-  
+
   </style>
-  
+
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-  
+
   <script type="application/javascript">
-  
+
   function getMeta(metaName) {
     var metas = document.getElementsByTagName('meta');
     for (let i = 0; i < metas.length; i++) {
@@ -471,14 +471,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     }
     return '';
   }
-  
+
   function offsetURL(url) {
     var offset = getMeta('distill:offset');
     return offset ? offset + '/' + url : url;
   }
-  
+
   function createFuseIndex() {
-  
+
     // create fuse index
     var options = {
       keys: [
@@ -491,7 +491,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       threshold: 0
     };
     var fuse = new window.Fuse([], options);
-  
+
     // fetch the main search.json
     return fetch(offsetURL('search.json'))
       .then(function(response) {
@@ -521,7 +521,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
               return fuse;
             });
           });
-  
+
         } else {
           return Promise.reject(
             new Error('Unexpected status from search index request: ' +
@@ -530,20 +530,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
         }
       });
   }
-  
+
   window.document.addEventListener("DOMContentLoaded", function (event) {
-  
+
     // get search element (bail if we don't have one)
     var searchEl = window.document.getElementById('distill-search');
     if (!searchEl)
       return;
-  
+
     createFuseIndex()
       .then(function(fuse) {
-  
+
         // make search box visible
         searchEl.classList.remove('hidden');
-  
+
         // initialize autocomplete
         var options = {
           autoselect: true,
@@ -592,19 +592,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       .catch(function(error) {
         console.log(error);
       });
-  
+
   });
-  
+
   </script>
-  
+
   <style type="text/css">
-  
+
   .nav-search {
     font-size: x-small;
   }
-  
+
   /* Algolioa Autocomplete */
-  
+
   .algolia-autocomplete {
     display: inline-block;
     margin-left: 10px;
@@ -618,8 +618,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     border: 1px #0F2E3D solid;
     width: 180px;
   }
-  
-  
+
+
   @media screen and (max-width: 768px) {
     .distill-site-nav .algolia-autocomplete {
       display: none;
@@ -635,13 +635,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       max-height: 400px;
     }
   }
-  
+
   .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
     width: 90%;
     outline: none;
     border: none;
   }
-  
+
   .algolia-autocomplete .aa-hint {
     color: #999;
   }
@@ -658,30 +658,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     border: 1px solid #999;
     border-top: none;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
     cursor: pointer;
     padding: 5px 4px;
     border-bottom: 1px solid #eee;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
     border-bottom: none;
     margin-bottom: 2px;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
     overflow: hidden;
     font-size: 0.8em;
     line-height: 1.4em;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
     font-size: 1rem;
     margin-block-start: 0;
     margin-block-end: 5px;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
     display: inline-block;
     overflow: hidden;
@@ -689,22 +689,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     width: 80%;
     margin-right: 4%;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
     display: inline-block;
     width: 15%;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
     height: 3em;
     width: auto;
     display: none;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
     display: initial;
   }
-  
+
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
     background-color: #eee;
   }
@@ -712,47 +712,47 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-weight: bold;
     font-style: normal;
   }
-  
+
   </style>
-  
-  
+
+
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
-  
+
   <style type="text/css">
-  
+
   body {
     background-color: white;
   }
-  
+
   .pandoc-table {
     width: 100%;
   }
-  
+
   .pandoc-table>caption {
     margin-bottom: 10px;
   }
-  
+
   .pandoc-table th:not([align]) {
     text-align: left;
   }
-  
+
   .pagedtable-footer {
     font-size: 15px;
   }
-  
+
   d-byline .byline {
     grid-template-columns: 2fr 2fr;
   }
-  
+
   d-byline .byline h3 {
     margin-block-start: 1.5em;
   }
-  
+
   d-byline .byline .authors-affiliations h3 {
     margin-block-start: 0.5em;
   }
-  
+
   .authors-affiliations .orcid-id {
     width: 16px;
     height:16px;
@@ -761,12 +761,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     vertical-align: middle;
     padding-bottom: 2px;
   }
-  
+
   d-title .dt-tags {
     margin-top: 1em;
     grid-column: text;
   }
-  
+
   .dt-tags .dt-tag {
     text-decoration: none;
     display: inline-block;
@@ -780,24 +780,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-transform: uppercase;
     font-weight: 500;
   }
-  
+
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
   }
-  
+
   .html-widget {
     margin-bottom: 2.0em;
   }
-  
+
   .l-screen-inset {
     padding-right: 16px;
   }
-  
+
   .l-screen .caption {
     margin-left: 10px;
   }
-  
+
   .shaded {
     background: rgb(247, 247, 247);
     padding-top: 20px;
@@ -805,75 +805,75 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  
+
   .shaded .html-widget {
     margin-bottom: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
-  
+
   .shaded .shaded-content {
     background: white;
   }
-  
+
   .text-output {
     margin-top: 0;
     line-height: 1.5em;
   }
-  
+
   .hidden {
     display: none !important;
   }
-  
+
   d-article {
     padding-top: 2.5rem;
     padding-bottom: 30px;
   }
-  
+
   d-appendix {
     padding-top: 30px;
   }
-  
+
   d-article>p>img {
     width: 100%;
   }
-  
+
   d-article h2 {
     margin: 1rem 0 1.5rem 0;
   }
-  
+
   d-article h3 {
     margin-top: 1.5rem;
   }
-  
+
   d-article iframe {
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 2.0em;
     width: 100%;
   }
-  
+
   /* Tweak code blocks */
-  
+
   d-article div.sourceCode code,
   d-article pre code {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   }
-  
+
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
     overflow: auto;
   }
-  
+
   d-article div.sourceCode {
     background-color: white;
   }
-  
+
   d-article div.sourceCode pre {
     padding-left: 10px;
     font-size: 12px;
     border-left: 2px solid rgba(0,0,0,0.1);
   }
-  
+
   d-article pre {
     font-size: 12px;
     color: black;
@@ -885,50 +885,50 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     word-break: normal;
     word-wrap: normal;
     line-height: 1.5;
-  
+
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-  
+
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
   }
-  
+
   d-article pre a {
     border-bottom: none;
   }
-  
+
   d-article pre a:hover {
     border-bottom: none;
     text-decoration: underline;
   }
-  
+
   d-article details {
     grid-column: text;
     margin-bottom: 0.8em;
   }
-  
+
   @media(min-width: 768px) {
-  
+
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
     overflow: visible !important;
   }
-  
+
   d-article div.sourceCode pre {
     padding-left: 18px;
     font-size: 14px;
   }
-  
+
   d-article pre {
     font-size: 14px;
   }
-  
+
   }
-  
+
   figure img.external {
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -936,9 +936,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding: 18px;
     box-sizing: border-box;
   }
-  
+
   /* CSS for d-contents */
-  
+
   .d-contents {
     grid-column: text;
     color: rgba(0,0,0,0.8);
@@ -950,7 +950,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-left: 0.25em;
     justify-self: start;
   }
-  
+
   @media(min-width: 1000px) {
     .d-contents.d-contents-float {
       height: 0;
@@ -961,82 +961,82 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       padding-left: 2em;
     }
   }
-  
+
   .d-contents nav h3 {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 1em;
   }
-  
+
   .d-contents li {
     list-style-type: none
   }
-  
+
   .d-contents nav > ul {
     padding-left: 0;
   }
-  
+
   .d-contents ul {
     padding-left: 1em
   }
-  
+
   .d-contents nav ul li {
     margin-top: 0.6em;
     margin-bottom: 0.2em;
   }
-  
+
   .d-contents nav a {
     font-size: 13px;
     border-bottom: none;
     text-decoration: none
     color: rgba(0, 0, 0, 0.8);
   }
-  
+
   .d-contents nav a:hover {
     text-decoration: underline solid rgba(0, 0, 0, 0.6)
   }
-  
+
   .d-contents nav > ul > li > a {
     font-weight: 600;
   }
-  
+
   .d-contents nav > ul > li > ul {
     font-weight: inherit;
   }
-  
+
   .d-contents nav > ul > li > ul > li {
     margin-top: 0.2em;
   }
-  
-  
+
+
   .d-contents nav ul {
     margin-top: 0;
     margin-bottom: 0.25em;
   }
-  
+
   .d-article-with-toc h2:nth-child(2) {
     margin-top: 0;
   }
-  
-  
+
+
   /* Figure */
-  
+
   .figure {
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
   }
-  
+
   .figure img {
     width: 100%;
   }
-  
+
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
     line-height: 1.5em;
   }
-  
+
   .figure img.external {
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1044,42 +1044,42 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding: 18px;
     box-sizing: border-box;
   }
-  
+
   .figure .caption a {
     color: rgba(0, 0, 0, 0.6);
   }
-  
+
   .figure .caption b,
   .figure .caption strong, {
     font-weight: 600;
     color: rgba(0, 0, 0, 1.0);
   }
-  
+
   /* Citations */
-  
+
   d-article .citation {
     color: inherit;
     cursor: inherit;
   }
-  
+
   div.hanging-indent{
     margin-left: 1em; text-indent: -1em;
   }
-  
+
   /* Citation hover box */
-  
+
   .tippy-box[data-theme~=light-border] {
     background-color: rgba(250, 250, 250, 0.95);
   }
-  
+
   .tippy-content > p {
     margin-bottom: 0;
     padding: 2px;
   }
-  
-  
+
+
   /* Tweak 1000px media break to show more text */
-  
+
   @media(min-width: 1000px) {
     .base-grid,
     distill-header,
@@ -1095,11 +1095,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
       grid-column-gap: 16px;
     }
-  
+
     .grid {
       grid-column-gap: 16px;
     }
-  
+
     d-article {
       font-size: 1.06rem;
       line-height: 1.7em;
@@ -1108,7 +1108,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       font-size: 13px;
     }
   }
-  
+
   @media(min-width: 1180px) {
     .base-grid,
     distill-header,
@@ -1124,16 +1124,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
       grid-column-gap: 32px;
     }
-  
+
     .grid {
       grid-column-gap: 32px;
     }
   }
-  
-  
+
+
   /* Get the citation styles for the appendix (not auto-injected on render since
      we do our own rendering of the citation appendix) */
-  
+
   d-appendix .citation-appendix,
   .d-appendix .citation-appendix {
     font-size: 11px;
@@ -1150,9 +1150,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     white-space: pre-wrap;
     word-wrap: break-word;
   }
-  
+
   /* Include appendix styles here so they can be overridden */
-  
+
   d-appendix {
     contain: layout style;
     font-size: 0.8em;
@@ -1164,7 +1164,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-top: 60px;
     padding-bottom: 48px;
   }
-  
+
   d-appendix h3 {
     grid-column: page-start / text-start;
     font-size: 15px;
@@ -1173,59 +1173,59 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-bottom: 0;
     color: rgba(0,0,0,0.65);
   }
-  
+
   d-appendix h3 + * {
     margin-top: 1em;
   }
-  
+
   d-appendix ol {
     padding: 0 0 0 15px;
   }
-  
+
   @media (min-width: 768px) {
     d-appendix ol {
       padding: 0 0 0 30px;
       margin-left: -30px;
     }
   }
-  
+
   d-appendix li {
     margin-bottom: 1em;
   }
-  
+
   d-appendix a {
     color: rgba(0, 0, 0, 0.6);
   }
-  
+
   d-appendix > * {
     grid-column: text;
   }
-  
+
   d-appendix > d-footnote-list,
   d-appendix > d-citation-list,
   d-appendix > distill-appendix {
     grid-column: screen;
   }
-  
+
   /* Include footnote styles here so they can be overridden */
-  
+
   d-footnote-list {
     contain: layout style;
   }
-  
+
   d-footnote-list > * {
     grid-column: text;
   }
-  
+
   d-footnote-list a.footnote-backlink {
     color: rgba(0,0,0,0.3);
     padding-left: 0.5em;
   }
-  
-  
-  
+
+
+
   /* Anchor.js */
-  
+
   .anchorjs-link {
     /*transition: all .25s linear; */
     text-decoration: none;
@@ -1236,86 +1236,86 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-decoration: none;
     border-bottom: none;
   }
-  
+
   /* Social footer */
-  
+
   .social_footer {
     margin-top: 30px;
     margin-bottom: 0;
     color: rgba(0,0,0,0.67);
   }
-  
+
   .disqus-comments {
     margin-right: 30px;
   }
-  
+
   .disqus-comment-count {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     cursor: pointer;
   }
-  
+
   #disqus_thread {
     margin-top: 30px;
   }
-  
+
   .article-sharing a {
     border-bottom: none;
     margin-right: 8px;
   }
-  
+
   .article-sharing a:hover {
     border-bottom: none;
   }
-  
+
   .sidebar-section.subscribe {
     font-size: 12px;
     line-height: 1.6em;
   }
-  
+
   .subscribe p {
     margin-bottom: 0.5em;
   }
-  
-  
+
+
   .article-footer .subscribe {
     font-size: 15px;
     margin-top: 45px;
   }
-  
-  
+
+
   .sidebar-section.custom {
     font-size: 12px;
     line-height: 1.6em;
   }
-  
+
   .custom p {
     margin-bottom: 0.5em;
   }
-  
+
   /* Styles for listing layout (hide title) */
   .layout-listing d-title, .layout-listing .d-title {
     display: none;
   }
-  
+
   /* Styles for posts lists (not auto-injected) */
-  
-  
+
+
   .posts-with-sidebar {
     padding-left: 45px;
     padding-right: 45px;
   }
-  
+
   .posts-list .description h2,
   .posts-list .description p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   }
-  
+
   .posts-list .description h2 {
     font-weight: 700;
     border-bottom: none;
     padding-bottom: 0;
   }
-  
+
   .posts-list h2.post-tag {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 12px;
@@ -1324,7 +1324,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-top: 60px;
     margin-bottom: 24px;
   }
-  
+
   .posts-list .post-preview {
     text-decoration: none;
     overflow: hidden;
@@ -1332,29 +1332,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 24px 0;
   }
-  
+
   .post-preview-last {
     border-bottom: none !important;
   }
-  
+
   .posts-list .posts-list-caption {
     grid-column: screen;
     font-weight: 400;
   }
-  
+
   .posts-list .post-preview h2 {
     margin: 0 0 6px 0;
     line-height: 1.2em;
     font-style: normal;
     font-size: 24px;
   }
-  
+
   .posts-list .post-preview p {
     margin: 0 0 12px 0;
     line-height: 1.4em;
     font-size: 16px;
   }
-  
+
   .posts-list .post-preview .thumbnail {
     box-sizing: border-box;
     margin-bottom: 24px;
@@ -1365,32 +1365,32 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     width: 100%;
     display: block;
   }
-  
+
   .posts-list .metadata {
     font-size: 12px;
     line-height: 1.4em;
     margin-bottom: 18px;
   }
-  
+
   .posts-list .metadata > * {
     display: inline-block;
   }
-  
+
   .posts-list .metadata .publishedDate {
     margin-right: 2em;
   }
-  
+
   .posts-list .metadata .dt-authors {
     display: block;
     margin-top: 0.3em;
     margin-right: 2em;
   }
-  
+
   .posts-list .dt-tags {
     display: block;
     line-height: 1em;
   }
-  
+
   .posts-list .dt-tags .dt-tag {
     display: inline-block;
     color: rgba(0,0,0,0.6);
@@ -1403,24 +1403,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-transform: uppercase;
     font-weight: 500;
   }
-  
+
   .posts-list img {
     opacity: 1;
   }
-  
+
   .posts-list img[data-src] {
     opacity: 0;
   }
-  
+
   .posts-more {
     clear: both;
   }
-  
-  
+
+
   .posts-sidebar {
     font-size: 16px;
   }
-  
+
   .posts-sidebar h3 {
     font-size: 16px;
     margin-top: 0;
@@ -1428,39 +1428,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-weight: 400;
     text-transform: uppercase;
   }
-  
+
   .sidebar-section {
     margin-bottom: 30px;
   }
-  
+
   .categories ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
+
   .categories li {
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 0;
   }
-  
+
   .categories li>a {
     border-bottom: none;
   }
-  
+
   .categories li>a:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   }
-  
+
   .categories .active {
     font-weight: 600;
   }
-  
+
   .categories .category-count {
     color: rgba(0, 0, 0, 0.4);
   }
-  
-  
+
+
   @media(min-width: 768px) {
     .posts-list .post-preview h2 {
       font-size: 26px;
@@ -1496,55 +1496,55 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       padding-bottom: 24px;
     }
   }
-  
-  
+
+
   /* Improve display for browsers without grid (IE/Edge <= 15) */
-  
+
   .downlevel {
     line-height: 1.6em;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
   }
-  
+
   .downlevel .d-title {
     padding-top: 6rem;
     padding-bottom: 1.5rem;
   }
-  
+
   .downlevel .d-title h1 {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.1em;
     margin: 0 0 0.5rem;
   }
-  
+
   .downlevel .d-title p {
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.55em;
     margin-top: 0;
   }
-  
+
   .downlevel .d-byline {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     font-size: 0.8rem;
     line-height: 1.8em;
   }
-  
+
   .downlevel .section-separator {
     border: none;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
-  
+
   .downlevel .d-article {
     font-size: 1.06rem;
     line-height: 1.7em;
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
-  
-  
+
+
   .downlevel .d-appendix {
     padding-left: 0;
     padding-right: 0;
@@ -1556,11 +1556,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-top: 40px;
     padding-bottom: 48px;
   }
-  
+
   .downlevel .footnotes ol {
     padding-left: 13px;
   }
-  
+
   .downlevel .base-grid,
   .downlevel .distill-header,
   .downlevel .d-title,
@@ -1577,7 +1577,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-left: 40px;
     padding-right: 40px;
   }
-  
+
   @media(min-width: 768px) {
     .downlevel .base-grid,
     .downlevel .distill-header,
@@ -1597,14 +1597,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     max-width: 900px;
   }
   }
-  
+
   .downlevel pre code {
     display: block;
     border-left: 2px solid rgba(0, 0, 0, .1);
     padding: 0 0 0 20px;
     font-size: 14px;
   }
-  
+
   .downlevel code, .downlevel pre {
     color: black;
     background: none;
@@ -1615,27 +1615,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     word-break: normal;
     word-wrap: normal;
     line-height: 1.5;
-  
+
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-  
+
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
   }
-  
+
   .downlevel .posts-list .post-preview {
     color: inherit;
   }
-  
-  
-  
+
+
+
   </style>
-  
+
   <script type="application/javascript">
-  
+
   function is_downlevel_browser() {
     if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
                                    window.navigator.userAgent)) {
@@ -1644,20 +1644,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       return window.load_distill_framework === undefined;
     }
   }
-  
+
   // show body when load is complete
   function on_load_complete() {
-  
+
     // add anchors
     if (window.anchors) {
       window.anchors.options.placement = 'left';
       window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
     }
-  
-  
+
+
     // set body to visible
     document.body.style.visibility = 'visible';
-  
+
     // force redraw for leaflet widgets
     if (window.HTMLWidgets) {
       var maps = window.HTMLWidgets.findAll(".leaflet");
@@ -1670,39 +1670,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
         });
       });
     }
-  
+
     // trigger 'shown' so htmlwidgets resize
     $('d-article').trigger('shown');
   }
-  
+
   function init_distill() {
-  
+
     init_common();
-  
+
     // create front matter
     var front_matter = $('<d-front-matter></d-front-matter>');
     $('#distill-front-matter').wrap(front_matter);
-  
+
     // create d-title
     $('.d-title').changeElementType('d-title');
-  
+
     // create d-byline
     var byline = $('<d-byline></d-byline>');
     $('.d-byline').replaceWith(byline);
-  
+
     // create d-article
     var article = $('<d-article></d-article>');
     $('.d-article').wrap(article).children().unwrap();
-  
+
     // move posts container into article
     $('.posts-container').appendTo($('d-article'));
-  
+
     // create d-appendix
     $('.d-appendix').changeElementType('d-appendix');
-  
+
     // flag indicating that we have appendix items
     var appendix = $('.appendix-bottom').children('h3').length > 0;
-  
+
     // replace footnotes with <d-footnote>
     $('.footnote-ref').each(function(i, val) {
       appendix = true;
@@ -1718,10 +1718,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     });
     // remove footnotes
     $('.footnotes').remove();
-  
+
     // move refs into #references-listing
     $('#references-listing').replaceWith($('#refs'));
-  
+
     $('h1.appendix, h2.appendix').each(function(i, val) {
       $(this).changeElementType('h3');
     });
@@ -1731,16 +1731,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       appendix = true;
       $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
     });
-  
+
     // show d-appendix if we have appendix content
     $("d-appendix").css('display', appendix ? 'grid' : 'none');
-  
+
     // localize layout chunks to just output
     $('.layout-chunk').each(function(i, val) {
-  
+
       // capture layout
       var layout = $(this).attr('data-layout');
-  
+
       // apply layout to markdown level block elements
       var elements = $(this).children().not('details, div.sourceCode, pre, script');
       elements.each(function(i, el) {
@@ -1753,40 +1753,40 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           $(this).wrap(layout_div);
         }
       });
-  
-  
+
+
       // unwrap the layout-chunk div
       $(this).children().unwrap();
     });
-  
+
     // remove code block used to force  highlighting css
     $('.distill-force-highlighting-css').parent().remove();
-  
+
     // remove empty line numbers inserted by pandoc when using a
     // custom syntax highlighting theme
     $('code.sourceCode a:empty').remove();
-  
+
     // load distill framework
     load_distill_framework();
-  
+
     // wait for window.distillRunlevel == 4 to do post processing
     function distill_post_process() {
-  
+
       if (!window.distillRunlevel || window.distillRunlevel < 4)
         return;
-  
+
       // hide author/affiliations entirely if we have no authors
       var front_matter = JSON.parse($("#distill-front-matter").html());
       var have_authors = front_matter.authors && front_matter.authors.length > 0;
       if (!have_authors)
         $('d-byline').addClass('hidden');
-  
+
       // article with toc class
       $('.d-contents').parent().addClass('d-article-with-toc');
-  
+
       // strip links that point to #
       $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
-  
+
       // add orcid ids
       $('.authors-affiliations').find('.author').each(function(i, el) {
         var orcid_id = front_matter.authors[i].orcidID;
@@ -1801,12 +1801,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           $(this).append(a);
         }
       });
-  
+
       // hide elements of author/affiliations grid that have no value
       function hide_byline_column(caption) {
         $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
       }
-  
+
       // affiliations
       var have_affiliations = false;
       for (var i = 0; i<front_matter.authors.length; ++i) {
@@ -1818,11 +1818,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       }
       if (!have_affiliations)
         $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
-  
+
       // published date
       if (!front_matter.publishedDate)
         hide_byline_column("Published");
-  
+
       // document object identifier
       var doi = $('d-byline').find('h3:contains("DOI")');
       var doi_p = doi.next().empty();
@@ -1842,22 +1842,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
            .html(front_matter.doi)
            .appendTo(doi_p);
       }
-  
+
        // change plural form of authors/affiliations
       if (front_matter.authors.length === 1) {
         var grid = $('.authors-affiliations');
         grid.children('h3:contains("Authors")').text('Author');
         grid.children('h3:contains("Affiliations")').text('Affiliation');
       }
-  
+
       // remove d-appendix and d-footnote-list local styles
       $('d-appendix > style:first-child').remove();
       $('d-footnote-list > style:first-child').remove();
-  
+
       // move appendix-bottom entries to the bottom
       $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
       $('.appendix-bottom').remove();
-  
+
       // hoverable references
       $('span.citation[data-cites]').each(function() {
         var refs = $(this).attr('data-cites').split(" ");
@@ -1874,39 +1874,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
-  
+
       // clear polling timer
       clearInterval(tid);
-  
+
       // show body now that everything is ready
       on_load_complete();
     }
-  
+
     var tid = setInterval(distill_post_process, 50);
     distill_post_process();
-  
+
   }
-  
+
   function init_downlevel() {
-  
+
     init_common();
-  
+
      // insert hr after d-title
     $('.d-title').after($('<hr class="section-separator"/>'));
-  
+
     // check if we have authors
     var front_matter = JSON.parse($("#distill-front-matter").html());
     var have_authors = front_matter.authors && front_matter.authors.length > 0;
-  
+
     // manage byline/border
     if (!have_authors)
       $('.d-byline').remove();
     $('.d-byline').after($('<hr class="section-separator"/>'));
     $('.d-byline a').remove();
-  
+
     // remove toc
     $('.d-contents').remove();
-  
+
     // move appendix elements
     $('h1.appendix, h2.appendix').each(function(i, val) {
       $(this).changeElementType('h3');
@@ -1914,62 +1914,62 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     $('h3.appendix').each(function(i, val) {
       $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
     });
-  
-  
+
+
     // inject headers into references and footnotes
     var refs_header = $('<h3></h3>');
     refs_header.text('References');
     $('#refs').prepend(refs_header);
-  
+
     var footnotes_header = $('<h3></h3');
     footnotes_header.text('Footnotes');
     $('.footnotes').children('hr').first().replaceWith(footnotes_header);
-  
+
     // move appendix-bottom entries to the bottom
     $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
     $('.appendix-bottom').remove();
-  
+
     // remove appendix if it's empty
     if ($('.d-appendix').children().length === 0)
       $('.d-appendix').remove();
-  
+
     // prepend separator above appendix
     $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
-  
+
     // trim code
     $('pre>code').each(function(i, val) {
       $(this).html($.trim($(this).html()));
     });
-  
+
     // move posts-container right before article
     $('.posts-container').insertBefore($('.d-article'));
-  
+
     $('body').addClass('downlevel');
-  
+
     on_load_complete();
   }
-  
-  
+
+
   function init_common() {
-  
+
     // jquery plugin to change element types
     (function($) {
       $.fn.changeElementType = function(newType) {
         var attrs = {};
-  
+
         $.each(this[0].attributes, function(idx, attr) {
           attrs[attr.nodeName] = attr.nodeValue;
         });
-  
+
         this.replaceWith(function() {
           return $("<" + newType + "/>", attrs).append($(this).contents());
         });
       };
     })(jQuery);
-  
+
     // prevent underline for linked images
     $('a > img').parent().css({'border-bottom' : 'none'});
-  
+
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
@@ -1981,35 +1981,35 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           var fig = $(this);
           fig.css('width', fig.attr('width') + 'px');
         });
-  
+
       }
     });
-  
+
     // auto-append index.html to post-preview links in file: protocol
     // and in rstudio ide preview
     $('.post-preview').each(function(i, val) {
       if (window.location.protocol === "file:")
         $(this).attr('href', $(this).attr('href') + "index.html");
     });
-  
+
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
         $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
       });
     }
-  
+
     // add class to pandoc style tables
     $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
     $('.kable-table').children('table').addClass('pandoc-table');
-  
+
     // add figcaption style to table captions
     $('caption').parent('table').addClass("figcaption");
-  
+
     // initialize posts list
     if (window.init_posts_list)
       window.init_posts_list();
-  
+
     // implmement disqus comment link
     $('.disqus-comment-count').click(function() {
       window.headroom_prevent_pin = true;
@@ -2023,17 +2023,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       }
     });
   }
-  
+
   document.addEventListener('DOMContentLoaded', function() {
     if (is_downlevel_browser())
       init_downlevel();
     else
       window.addEventListener('WebComponentsReady', init_distill);
   });
-  
+
   </script>
-  
+
   <!--/radix_placeholder_distill-->
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2092,106 +2093,298 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#in-review-or-submitted">In review or submitted</a></li>
-<li><a href="#accepted">Accepted</a></li>
-<li><a href="#peer-reviewed-article-journals">Peer-reviewed article journals</a></li>
-<li><a href="#proceedings">Proceedings</a></li>
-<li><a href="#book-chapters">Book chapters</a></li>
-<li><a href="#phd-and-master-thesis">PhD and Master thesis</a></li>
-<li><a href="#technical-reports">Technical reports</a></li>
-<li><a href="#database">Database</a></li>
+<li><a href="#in-review-or-submitted" id="toc-in-review-or-submitted">In
+review or submitted</a></li>
+<li><a href="#accepted" id="toc-accepted">Accepted</a></li>
+<li><a href="#peer-reviewed-article-journals"
+id="toc-peer-reviewed-article-journals">Peer-reviewed article
+journals</a></li>
+<li><a href="#proceedings" id="toc-proceedings">Proceedings</a></li>
+<li><a href="#book-chapters" id="toc-book-chapters">Book
+chapters</a></li>
+<li><a href="#phd-and-master-thesis" id="toc-phd-and-master-thesis">PhD
+and Master thesis</a></li>
+<li><a href="#technical-reports" id="toc-technical-reports">Technical
+reports</a></li>
+<li><a href="#database" id="toc-database">Database</a></li>
 </ul>
 </nav>
 </div>
 <h3 id="in-review-or-submitted">In review or submitted</h3>
 <!-- <ol reversed> -->
 <ul>
-<li><p><span style="color: purple;"> <strong>How can regime characteristics of catchments help make training of local and regional LSTM models more effective?</strong></span> <br> Hashemi, R., <strong>Brigode, P.</strong>, Garambois, P.-A. &amp; Javelle, P.<br> In review for <em>Hydrology and Earth System Sciences Discussion</em>.<br> <a href="https://hess.copernicus.org/preprints/hess-2021-511/">Preprint</a>.</p></li>
-<li><p><span style="color: purple;"> <strong>Rainfall in the Greater and Lesser Antilles: performance of four gridded datasets on a daily timescale.</strong></span> <br> <u>Bathelemy, R.</u>, <strong>Brigode, P.</strong>, Boisson, D. &amp; Tric, E.<br> In review for <em>Journal of Hydrology: Regional Studies</em>.</p></li>
-<li><p><span style="color: purple;"> <strong>Crue du 23 novembre 2019 sur la Côte d’Azur : comparaison de débits estimés par LSPIV et par modélisation hydrologique.</strong></span> <br> <u>Vigoureux, S.</u>, Liebard, L-L., Chonoski, A., Robert, E., Torchet, L., Poveda, V., Leclerc, F., Billant, J., Rousseau, G., Delestre, O. &amp; <strong>Brigode, P.</strong><br> In review for <em>La Houille Blanche</em>.</p></li>
+<li><span style="color: purple;"> <strong>How can regime characteristics
+of catchments help make training of local and regional LSTM models more
+effective?</strong></span> <br> Hashemi, R., <strong>Brigode,
+P.</strong>, Garambois, P.-A. &amp; Javelle, P.<br> In review for
+<em>Hydrology and Earth System Sciences Discussion</em>.<br> <a
+href="https://hess.copernicus.org/preprints/hess-2021-511/">Preprint</a>.</li>
 </ul>
 <!-- </ol> -->
 <h3 id="accepted">Accepted</h3>
 <ul>
-<li><span style="color: purple;"> <strong>Are hydrologic-hydraulic coupling approaches able to reproduce Alex flash-flood dynamics and impacts on southeastern French headwaters?</strong></span> <br> <strong>Brigode, P.</strong>, Bourgin, F., Yassine, R., Delestre, O. &amp; Lagrée, P-Y. (2022).<br> In <em>Advances in Hydroinformatics</em>, edited by P. Gourbesville and G. Caignaert. Springer Water. Singapore: Springer, 2022.<br></li>
+<li><span style="color: purple;"> <strong>Are hydrologic-hydraulic
+coupling approaches able to reproduce Alex flash-flood dynamics and
+impacts on southeastern French headwaters?</strong></span> <br>
+<strong>Brigode, P.</strong>, Bourgin, F., Yassine, R., Delestre, O.
+&amp; Lagrée, P-Y. (2022).<br> In <em>Advances in Hydroinformatics</em>,
+edited by P. Gourbesville and G. Caignaert. Springer Water. Singapore:
+Springer, 2022.<br></li>
 </ul>
-<h3 id="peer-reviewed-article-journals">Peer-reviewed article journals</h3>
+<h3 id="peer-reviewed-article-journals">Peer-reviewed article
+journals</h3>
 <ol reversed>
 <li>
-<span style="color: purple;"> <strong>Tempête Alex du 2 octobre 2020 dans les Alpes-Maritimes : une contribution de la communauté scientifique à l’estimation des débits de pointe des crues.</strong></span> <br> Payrastre, O., Bonnifait, L., <strong>Brigode, P.</strong>, Astagneau, P., Baise, A., Belleville, A., Bouamara, N., Bourgin, F., Breil, P., Brunet, P., Cerbelaud, A., Courapied, F., Devreux, L., Dreyfus, R., Gaume, E., Nicolle, P., Nomis, S., Poggio, J., Pons, F., Rabab, Y. &amp; Sevrez, D. (2022).<br> <em>La Houille Blanche</em><br> <a href="https://doi.org/10.1080/27678490.2022.2082891">DOI: 10.1080/27678490.2022.2082891</a>
+<span style="color: purple;"> <strong>Rainfall in the Greater and Lesser
+Antilles: performance of four gridded datasets on a daily
+timescale.</strong></span> <br> <u>Bathelemy, R.</u>, <strong>Brigode,
+P.</strong>, Boisson, D. &amp; Tric, E.<br> <em>Journal of Hydrology:
+Regional Studies</em>.
 </li>
 <li>
-<span style="color: purple;"> <strong>Brief communication: Seismological analysis of flood dynamics and hydrologically-triggered earthquake swarms during storm Alex.</strong></span> <br> Chmiel, M., Godano, M., Piantini, M., <strong>Brigode, P.</strong>, Gimbert, F., Bakker, M., Courboulex, F., Ampuero, J.-P., Rivet, D., Sladen, A., Ambrois, D., &amp; Chapuis, M. (2022).<br> <em>Natural Hazards and Earth System Sciences</em>, 22, pp 1541–1558.<br> <a href="https://doi.org/10.5194/nhess-22-1541-2022">DOI: 10.5194/nhess-22-1541-2022</a>
+<span style="color: purple;"> <strong>Crue du 23 novembre 2019 sur la
+Côte d’Azur : comparaison de débits estimés par LSPIV et par
+modélisation hydrologique.</strong></span> <br> <u>Vigoureux, S.</u>,
+Liebard, L-L., Chonoski, A., Robert, E., Torchet, L., Poveda, V.,
+Leclerc, F., Billant, J., Rousseau, G., Delestre, O. &amp;
+<strong>Brigode, P.</strong><br> <em>La Houille Blanche</em>.<br> <a
+href="https://doi.org/10.1080/27678490.2022.2101391">DOI:
+10.1080/27678490.2022.2101391</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Inondations sur la Côte d’Azur : bilan hydro-météorologique des épisodes de 2015 et 2019.</strong></span> <br> <strong>Brigode, P.</strong>, <u>Vigoureux, S.</u>, Delestre, O., Nicolle, P., Payrastre, O., Dreyfus, R., Nomis, S. &amp; Salvan, L. (2021).<br> <em>La Houille Blanche</em>, 107, n°1, pp 1‑14.<br> <a href="https://doi.org/10.1080/27678490.2021.1976600">DOI: 10.1080/27678490.2021.1976600</a>
+<span style="color: purple;"> <strong>Tempête Alex du 2 octobre 2020
+dans les Alpes-Maritimes : une contribution de la communauté
+scientifique à l’estimation des débits de pointe des
+crues.</strong></span> <br> Payrastre, O., Bonnifait, L.,
+<strong>Brigode, P.</strong>, Astagneau, P., Baise, A., Belleville, A.,
+Bouamara, N., Bourgin, F., Breil, P., Brunet, P., Cerbelaud, A.,
+Courapied, F., Devreux, L., Dreyfus, R., Gaume, E., Nicolle, P., Nomis,
+S., Poggio, J., Pons, F., Rabab, Y. &amp; Sevrez, D. (2022).<br> <em>La
+Houille Blanche</em><br> <a
+href="https://doi.org/10.1080/27678490.2022.2082891">DOI:
+10.1080/27678490.2022.2082891</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Reconstructing past hydrology of eastern Canadian boreal catchments using clastic varved sediments and hydroclimatic modeling: 160 years of fluvial inflows.</strong></span> <br> Gagnon-Poiré, A., <strong>Brigode, P.</strong>, Francus, P., Fortin, D., Lajeunesse, P., Trottier, A.-P. &amp; Dorion, H. (2021).<br> <em>Climate of the Past</em>, 17, pp. 653–673.<br> <a href="https://doi.org/10.5194/cp-17-653-2021">DOI: 10.5194/cp-17-653-2021</a>
+<span style="color: purple;"> <strong>Brief communication: Seismological
+analysis of flood dynamics and hydrologically-triggered earthquake
+swarms during storm Alex.</strong></span> <br> Chmiel, M., Godano, M.,
+Piantini, M., <strong>Brigode, P.</strong>, Gimbert, F., Bakker, M.,
+Courboulex, F., Ampuero, J.-P., Rivet, D., Sladen, A., Ambrois, D.,
+&amp; Chapuis, M. (2022).<br> <em>Natural Hazards and Earth System
+Sciences</em>, 22, pp 1541–1558.<br> <a
+href="https://doi.org/10.5194/nhess-22-1541-2022">DOI:
+10.5194/nhess-22-1541-2022</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Tree-Ring Stable Isotopes for Regional Discharge Reconstruction in Eastern Labrador and Teleconnection with the Arctic Oscillation.</strong></span> <br> Dinis, L., Bégin, C., Savard, M., Marion, J., <strong>Brigode, P.</strong> &amp; Alvarez, C. (2019).<br> <em>Climate Dynamics</em>, 53, pp. 3625–3640.<br> <a href="https://doi.org/10.1007/s00382-019-04731-2">DOI: 10.1007/s00382-019-04731-2</a>
+<span style="color: purple;"> <strong>Inondations sur la Côte d’Azur :
+bilan hydro-météorologique des épisodes de 2015 et 2019.</strong></span>
+<br> <strong>Brigode, P.</strong>, <u>Vigoureux, S.</u>, Delestre, O.,
+Nicolle, P., Payrastre, O., Dreyfus, R., Nomis, S. &amp; Salvan, L.
+(2021).<br> <em>La Houille Blanche</em>, 107, n°1, pp 1‑14.<br> <a
+href="https://doi.org/10.1080/27678490.2021.1976600">DOI:
+10.1080/27678490.2021.1976600</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Une cartographie de l’écoulement des rivières de Corse.</strong></span> <br> <strong>Brigode, P.</strong>, Lilas, D., Andréassian, V., Nicolle, P., Le Moine, N., Perrin, C., Gremminger, S. &amp; Augeard, B. (2019).<br> <em>La Houille Blanche</em>, n°1, pp. 68-77.<br> <a href="https://doi.org/10.1051/lhb/2019009">DOI: 10.1051/lhb/2019009</a>.
+<span style="color: purple;"> <strong>Reconstructing past hydrology of
+eastern Canadian boreal catchments using clastic varved sediments and
+hydroclimatic modeling: 160 years of fluvial inflows.</strong></span>
+<br> Gagnon-Poiré, A., <strong>Brigode, P.</strong>, Francus, P.,
+Fortin, D., Lajeunesse, P., Trottier, A.-P. &amp; Dorion, H. (2021).<br>
+<em>Climate of the Past</em>, 17, pp. 653–673.<br> <a
+href="https://doi.org/10.5194/cp-17-653-2021">DOI:
+10.5194/cp-17-653-2021</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Changes in French weather pattern seasonal frequencies projected by a CMIP5 ensemble.</strong></span> <br> <strong>Brigode, P.</strong>, Gérardin, M., Bernardara, P., Gailhard, J., Paquet, E. &amp; Ribstein, P. (2018).<br> <em>International Journal of Climatology</em>, 38(10), pp. 3991-4006.<br> <a href="https://doi.org/10.1002/joc.5549">DOI: 10.1002/joc.5549</a>
+<span style="color: purple;"> <strong>Tree-Ring Stable Isotopes for
+Regional Discharge Reconstruction in Eastern Labrador and Teleconnection
+with the Arctic Oscillation.</strong></span> <br> Dinis, L., Bégin, C.,
+Savard, M., Marion, J., <strong>Brigode, P.</strong> &amp; Alvarez, C.
+(2019).<br> <em>Climate Dynamics</em>, 53, pp. 3625–3640.<br> <a
+href="https://doi.org/10.1007/s00382-019-04731-2">DOI:
+10.1007/s00382-019-04731-2</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Streamflow variability over the 1881–2011 period in northern Québec: comparison of hydrological reconstructions based on tree rings and geopotential height field reanalysis.</strong></span> <br> <strong>Brigode, P.</strong>, Brissette, F., Nicault, A., Perreault, L., Kuentz, A., Mathevet, T., &amp; Gailhard, J. (2016).<br> <em>Climate of the Past</em>, 12(9), pp. 1785–1804.<br> <a href="https://doi.org/10.5194/cp-12-1785-2016">DOI: 10.5194/cp-12-1785-2016</a>
+<span style="color: purple;"> <strong>Une cartographie de l’écoulement
+des rivières de Corse.</strong></span> <br> <strong>Brigode,
+P.</strong>, Lilas, D., Andréassian, V., Nicolle, P., Le Moine, N.,
+Perrin, C., Gremminger, S. &amp; Augeard, B. (2019).<br> <em>La Houille
+Blanche</em>, n°1, pp. 68-77.<br> <a
+href="https://doi.org/10.1051/lhb/2019009">DOI: 10.1051/lhb/2019009</a>.
 </li>
 <li>
-<span style="color: purple;"> <strong>Dependence of model-based extreme flood estimation to the calibration period: the case study of the Kamp River (Austria).</strong></span> <br> <strong>Brigode, P.</strong>, Paquet, E., Bernardara, P., Gailhard, J., Garavaglia, F., Ribstein, P., Bourgin, F., Perrin, C. &amp; Andréassian, V. (2015).<br> <em>Hydrological Sciences Journal</em>, 60(7-8), pp. 1424-1437.<br> <a href="https://doi.org/10.1080/02626667.2015.1006632">DOI: 10.1080/02626667.2015.1006632</a>
+<span style="color: purple;"> <strong>Changes in French weather pattern
+seasonal frequencies projected by a CMIP5 ensemble.</strong></span> <br>
+<strong>Brigode, P.</strong>, Gérardin, M., Bernardara, P., Gailhard,
+J., Paquet, E. &amp; Ribstein, P. (2018).<br> <em>International Journal
+of Climatology</em>, 38(10), pp. 3991-4006.<br> <a
+href="https://doi.org/10.1002/joc.5549">DOI: 10.1002/joc.5549</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Parameter transferability under changing climate: case study with a land surface model in the Durance watershed, France.</strong></span> <br> Magand, C., Ducharne, A., Le Moine, N. &amp; <strong>Brigode, P.</strong> (2015).<br> <em>Hydrological Sciences Journal</em>, 60(7-8), pp. 1408-1423.<br> <a href="https://doi.org/10.1080/02626667.2014.993643">DOI: 10.1080/02626667.2014.993643</a>
+<span style="color: purple;"> <strong>Streamflow variability over the
+1881–2011 period in northern Québec: comparison of hydrological
+reconstructions based on tree rings and geopotential height field
+reanalysis.</strong></span> <br> <strong>Brigode, P.</strong>,
+Brissette, F., Nicault, A., Perreault, L., Kuentz, A., Mathevet, T.,
+&amp; Gailhard, J. (2016).<br> <em>Climate of the Past</em>, 12(9),
+pp. 1785–1804.<br> <a
+href="https://doi.org/10.5194/cp-12-1785-2016">DOI:
+10.5194/cp-12-1785-2016</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Méthodes probabilistes et déterministes d’estimation des débits extrêmes: Comparaison de résultats sur deux bassins versants de Colombie Britannique (Canada).</strong></span> <br> <strong>Brigode, P.</strong>, Mićović, Z., Bernardara, P., Paquet, E., Gailhard, J., Garavaglia, F., Garçon, R., &amp; Ribstein P. (2014).<br> <em>La Houille Blanche</em>, n°3, pp. 72-78.<br> <a href="https://doi.org/10.1051/lhb/20150036">DOI: 10.1051/lhb/20150036</a>
+<span style="color: purple;"> <strong>Dependence of model-based extreme
+flood estimation to the calibration period: the case study of the Kamp
+River (Austria).</strong></span> <br> <strong>Brigode, P.</strong>,
+Paquet, E., Bernardara, P., Gailhard, J., Garavaglia, F., Ribstein, P.,
+Bourgin, F., Perrin, C. &amp; Andréassian, V. (2015).<br>
+<em>Hydrological Sciences Journal</em>, 60(7-8), pp. 1424-1437.<br> <a
+href="https://doi.org/10.1080/02626667.2015.1006632">DOI:
+10.1080/02626667.2015.1006632</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Sensitivity analysis of SCHADEX extreme flood estimates to observed hydro-meteorological variability.</strong></span> <br> <strong>Brigode, P.</strong>, Bernardara, P., Paquet, E., Gailhard, J., Garavaglia, F., Merz, R., Mićović, Z., Lawrence, D. &amp; Ribstein, P. (2014).<br> <em>Water Resources Research</em>, 50 (1), pp. 353–370.<br> <a href="https://doi.org/10.1002/2013WR013687">DOI: 10.1002/2013WR013687</a>
+<span style="color: purple;"> <strong>Parameter transferability under
+changing climate: case study with a land surface model in the Durance
+watershed, France.</strong></span> <br> Magand, C., Ducharne, A., Le
+Moine, N. &amp; <strong>Brigode, P.</strong> (2015).<br>
+<em>Hydrological Sciences Journal</em>, 60(7-8), pp. 1408-1423.<br> <a
+href="https://doi.org/10.1080/02626667.2014.993643">DOI:
+10.1080/02626667.2014.993643</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Linking ENSO and heavy rainfall events over Coastal British Columbia through a weather pattern classification.</strong></span> <br> <strong>Brigode, P.</strong>, Mićović, Z., Bernardara, P., Paquet, E., Garavaglia, F., Gailhard, J. &amp; Ribstein, P. (2013).<br> <em>Hydrology and Earth System Sciences</em>, 17 (4), pp. 1455-1473.<br> <a href="https://doi.org/10.5194/hess-17-1455-2013">DOI: 10.5194/hess-17-1455-2013</a>
+<span style="color: purple;"> <strong>Méthodes probabilistes et
+déterministes d’estimation des débits extrêmes: Comparaison de résultats
+sur deux bassins versants de Colombie Britannique
+(Canada).</strong></span> <br> <strong>Brigode, P.</strong>, Mićović,
+Z., Bernardara, P., Paquet, E., Gailhard, J., Garavaglia, F., Garçon,
+R., &amp; Ribstein P. (2014).<br> <em>La Houille Blanche</em>, n°3,
+pp. 72-78.<br> <a href="https://doi.org/10.1051/lhb/20150036">DOI:
+10.1051/lhb/20150036</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Optimization of the geopotential heights information used in a rainfall based weather patterns classification over Austria.</strong></span> <br> <strong>Brigode, P.</strong>, Bernardara, P., Gailhard, J., Garavaglia, F., Ribstein, P. &amp; Merz, R. (2013).<br> <em>International Journal of Climatology</em>, 33 (6), pp. 1563–1573.<br> <a href="https://doi.org/10.1002/joc.3535">DOI: 10.1002/joc.3535</a>
+<span style="color: purple;"> <strong>Sensitivity analysis of SCHADEX
+extreme flood estimates to observed hydro-meteorological
+variability.</strong></span> <br> <strong>Brigode, P.</strong>,
+Bernardara, P., Paquet, E., Gailhard, J., Garavaglia, F., Merz, R.,
+Mićović, Z., Lawrence, D. &amp; Ribstein, P. (2014).<br> <em>Water
+Resources Research</em>, 50 (1), pp. 353–370.<br> <a
+href="https://doi.org/10.1002/2013WR013687">DOI:
+10.1002/2013WR013687</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>Hydrological model parameters instability: a source of additional uncertainty in estimating the hydrological impacts of climate change?</strong></span> <br> <strong>Brigode, P.</strong>, Oudin, L. &amp; Perrin, C. (2013).<br> <em>Journal of Hydrology</em>. 476 (0), pp. 410-425.<br> <a href="https://doi.org/10.1016/j.jhydrol.2012.11.012">DOI: 10.1016/j.jhydrol.2012.11.012</a>
+<span style="color: purple;"> <strong>Linking ENSO and heavy rainfall
+events over Coastal British Columbia through a weather pattern
+classification.</strong></span> <br> <strong>Brigode, P.</strong>,
+Mićović, Z., Bernardara, P., Paquet, E., Garavaglia, F., Gailhard, J.
+&amp; Ribstein, P. (2013).<br> <em>Hydrology and Earth System
+Sciences</em>, 17 (4), pp. 1455-1473.<br> <a
+href="https://doi.org/10.5194/hess-17-1455-2013">DOI:
+10.5194/hess-17-1455-2013</a>
+</li>
+<li>
+<span style="color: purple;"> <strong>Optimization of the geopotential
+heights information used in a rainfall based weather patterns
+classification over Austria.</strong></span> <br> <strong>Brigode,
+P.</strong>, Bernardara, P., Gailhard, J., Garavaglia, F., Ribstein, P.
+&amp; Merz, R. (2013).<br> <em>International Journal of
+Climatology</em>, 33 (6), pp. 1563–1573.<br> <a
+href="https://doi.org/10.1002/joc.3535">DOI: 10.1002/joc.3535</a>
+</li>
+<li>
+<span style="color: purple;"> <strong>Hydrological model parameters
+instability: a source of additional uncertainty in estimating the
+hydrological impacts of climate change?</strong></span> <br>
+<strong>Brigode, P.</strong>, Oudin, L. &amp; Perrin, C. (2013).<br>
+<em>Journal of Hydrology</em>. 476 (0), pp. 410-425.<br> <a
+href="https://doi.org/10.1016/j.jhydrol.2012.11.012">DOI:
+10.1016/j.jhydrol.2012.11.012</a>
 </li>
 </ol>
 <h3 id="proceedings">Proceedings</h3>
 <ol reversed>
 <li>
-<span style="color: purple;"> <strong>Real-Time Inundation Mapping with a 2D Hydraulic Modelling Tool Based on Adaptive Grid Refinement: The Case of the October 2015 French Riviera Flood.</strong></span> <br> Kirstetter, G., Bourgin, F., <strong>Brigode, P.</strong> &amp; Delestre, O. (2020).<br> In <em>Advances in Hydroinformatics</em>, edited by P. Gourbesville and G. Caignaert, 335‑46. Springer Water. Singapore: Springer, 2020.<br> <a href="https://doi.org/10.1007/978-981-15-5436-0_25">DOI: 10.1007/978-981-15-5436-0_25</a>
+<span style="color: purple;"> <strong>Real-Time Inundation Mapping with
+a 2D Hydraulic Modelling Tool Based on Adaptive Grid Refinement: The
+Case of the October 2015 French Riviera Flood.</strong></span> <br>
+Kirstetter, G., Bourgin, F., <strong>Brigode, P.</strong> &amp;
+Delestre, O. (2020).<br> In <em>Advances in Hydroinformatics</em>,
+edited by P. Gourbesville and G. Caignaert, 335‑46. Springer Water.
+Singapore: Springer, 2020.<br> <a
+href="https://doi.org/10.1007/978-981-15-5436-0_25">DOI:
+10.1007/978-981-15-5436-0_25</a>
 </li>
 <li>
-<span style="color: purple;"> <strong>airGR and airGRteaching: Two Open-Source Tools for Rainfall-Runoff Modeling and Teaching Hydrology.</strong></span> <br> Delaigue O., Thirel G., Coron L. &amp; <strong>Brigode P.</strong> (2018).<br> HIC 2018. <em>13th International Conference on Hydroinformatics</em>. EPiC Series in Engineering, pp. 541–548. EasyChair.<br> <a href="https://doi.org/10.29007/qsqj">DOI: 10.29007/qsqj</a>
+<span style="color: purple;"> <strong>airGR and airGRteaching: Two
+Open-Source Tools for Rainfall-Runoff Modeling and Teaching
+Hydrology.</strong></span> <br> Delaigue O., Thirel G., Coron L. &amp;
+<strong>Brigode P.</strong> (2018).<br> HIC 2018. <em>13th International
+Conference on Hydroinformatics</em>. EPiC Series in Engineering,
+pp. 541–548. EasyChair.<br> <a href="https://doi.org/10.29007/qsqj">DOI:
+10.29007/qsqj</a>
 </li>
 </ol>
 <h3 id="book-chapters">Book chapters</h3>
 <ul>
-<li>Participation à la rédaction du chapitre intitulé <strong>Reconstitution historique des séries hydrologiques</strong>, publié dans <a href="http://www.grec-sud.fr/cahier-thematique/les-ressources-en-eau-et-le-changement-climatique-en-provence-alpes-cote-dazur/">Les ressources en eau et le changement climatique en Provence-Alpes-Côte d’Azur</a>, les cahiers du GREC-PACA (maintenant <a href="http://www.grec-sud.fr/">GREC-SUD</a>), édités par l’Association pour l’innovation et la recherche au service du climat (AIR), juillet 2017, 52 pages. ISBN : 978-2956-0-0605-3.</li>
+<li>Participation à la rédaction du chapitre intitulé
+<strong>Reconstitution historique des séries hydrologiques</strong>,
+publié dans <a
+href="http://www.grec-sud.fr/cahier-thematique/les-ressources-en-eau-et-le-changement-climatique-en-provence-alpes-cote-dazur/">Les
+ressources en eau et le changement climatique en Provence-Alpes-Côte
+d’Azur</a>, les cahiers du GREC-PACA (maintenant <a
+href="http://www.grec-sud.fr/">GREC-SUD</a>), édités par l’Association
+pour l’innovation et la recherche au service du climat (AIR), juillet
+2017, 52 pages. ISBN : 978-2956-0-0605-3.</li>
 </ul>
 <h3 id="phd-and-master-thesis">PhD and Master thesis</h3>
 <ul>
-<li><p><span style="color: purple;"> <strong>Changement climatique et risque hydrologique : évaluation de la méthode SCHADEX en contexte non-stationnaire.</strong></span> <br> <strong>Brigode, P.</strong> (2013).<br> <a href="https://tel.archives-ouvertes.fr/tel-00851384/">Thèse de doctorat (PhD thesis)</a><br> UPMC, 341 pages (en français et en anglais).</p></li>
-<li><p><span style="color: purple;"> <strong>Modélisation hydrologique en contexte de changement climatique : Incertitudes liées aux paramètres de modèles conceptuels pluie-débit.</strong></span> <br> <strong>Brigode, P.</strong> (2010).<br> <a href="http://m2hh.metis.upmc.fr/wp-content/uploads/arch/memoires2010/Brigode-rapportHH0910.pdf">Mémoire de Master 2 (Master thesis)</a><br> UPMC, 50 pages (en français).</p></li>
+<li><p><span style="color: purple;"> <strong>Changement climatique et
+risque hydrologique : évaluation de la méthode SCHADEX en contexte
+non-stationnaire.</strong></span> <br> <strong>Brigode, P.</strong>
+(2013).<br> <a
+href="https://tel.archives-ouvertes.fr/tel-00851384/">Thèse de doctorat
+(PhD thesis)</a><br> UPMC, 341 pages (en français et en
+anglais).</p></li>
+<li><p><span style="color: purple;"> <strong>Modélisation hydrologique
+en contexte de changement climatique : Incertitudes liées aux paramètres
+de modèles conceptuels pluie-débit.</strong></span> <br>
+<strong>Brigode, P.</strong> (2010).<br> <a
+href="http://m2hh.metis.upmc.fr/wp-content/uploads/arch/memoires2010/Brigode-rapportHH0910.pdf">Mémoire
+de Master 2 (Master thesis)</a><br> UPMC, 50 pages (en
+français).</p></li>
 </ul>
 <h3 id="technical-reports">Technical reports</h3>
 <ul>
-<li><p><span style="color: purple;"> <strong>Lutte contre les inondations sur le bassin versant de la Zorn : comparaison de méthodes de prédétermination des débits caractéristiques de crues.</strong></span> <br> Nicolle, P., <strong>Brigode, P.</strong> &amp; Perrin. C. (2015).<br> Irstea - UR HBAN – Antony, 35 pages.</p></li>
-<li><p><span style="color: purple;"> <strong>Reconstitution de 55 années de débits sur plus de 10 000 points non-jaugés en France par régionalisation d’un modèle pluie-débit. </strong></span> <br> <strong>Brigode, P.</strong>, Andréassian, V., Bourgin, F. &amp; Lobligeois, F. (2014).<br> <em>Partenariat ONEMA-Irstea 2012, Hydrologie des étiages (Action 5a)</em>.<br> Irstea - UR HBAN – Antony, 28 pages.</p></li>
-<li><p><span style="color: purple;"> <strong>Cartographie du débit de référence d’étiage et du débit moyen en Corse : Une approche distribuée pour garantir la continuité des estimations le long du réseau hydrographique.</strong></span> <br> <strong>Brigode, P.</strong>, Andréassian, V., Nicolle, P., Le Moine, N. &amp; Perrin, C. (2014).<br> <em>Partenariat ONEMA-Irstea 2011, Hydro-morphologie et altérations physiques des hydrosystèmes continentaux, Prédétermination des étiages</em>.<br> Irstea - UR HBAN – Antony, 43 pages.</p></li>
+<li><p><span style="color: purple;"> <strong>Lutte contre les
+inondations sur le bassin versant de la Zorn : comparaison de méthodes
+de prédétermination des débits caractéristiques de
+crues.</strong></span> <br> Nicolle, P., <strong>Brigode, P.</strong>
+&amp; Perrin. C. (2015).<br> Irstea - UR HBAN – Antony, 35
+pages.</p></li>
+<li><p><span style="color: purple;"> <strong>Reconstitution de 55 années
+de débits sur plus de 10 000 points non-jaugés en France par
+régionalisation d’un modèle pluie-débit. </strong></span> <br>
+<strong>Brigode, P.</strong>, Andréassian, V., Bourgin, F. &amp;
+Lobligeois, F. (2014).<br> <em>Partenariat ONEMA-Irstea 2012, Hydrologie
+des étiages (Action 5a)</em>.<br> Irstea - UR HBAN – Antony, 28
+pages.</p></li>
+<li><p><span style="color: purple;"> <strong>Cartographie du débit de
+référence d’étiage et du débit moyen en Corse : Une approche distribuée
+pour garantir la continuité des estimations le long du réseau
+hydrographique.</strong></span> <br> <strong>Brigode, P.</strong>,
+Andréassian, V., Nicolle, P., Le Moine, N. &amp; Perrin, C. (2014).<br>
+<em>Partenariat ONEMA-Irstea 2011, Hydro-morphologie et altérations
+physiques des hydrosystèmes continentaux, Prédétermination des
+étiages</em>.<br> Irstea - UR HBAN – Antony, 43 pages.</p></li>
 </ul>
 <h3 id="database">Database</h3>
 <ul>
-<li><span style="color: purple;"> <strong>Summary sheets of watershed-scale hydroclimatic observed data for France.</strong></span> <br> <strong>Brigode, P.</strong>, Génot, B., Lobligeois, F. &amp; Delaigue, O. (2020).<br> <a href="https://doi.org/10.15454/UV01P1">https://doi.org/10.15454/UV01P1</a>, Portail Data INRAE, V1.</li>
+<li><span style="color: purple;"> <strong>Summary sheets of
+watershed-scale hydroclimatic observed data for France.</strong></span>
+<br> <strong>Brigode, P.</strong>, Génot, B., Lobligeois, F. &amp;
+Delaigue, O. (2020).<br> <a
+href="https://doi.org/10.15454/UV01P1">https://doi.org/10.15454/UV01P1</a>,
+Portail Data INRAE, V1.</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
