@@ -10,6 +10,8 @@ website:
         text: Accueil
       - href: publications.qmd
         text: Publications
+      - href: data_software.qmd
+        text: Bases de données et logiciels
 
 format:
   html:

@@ -1,0 +1,55 @@
+---
+title: "Bases de données et logiciels"
+---
+
+## Bases de données
+
+1. **CAMELS-FR dataset**\
+   Delaigue, O., Guimarães, G. M., **Brigode, P.**, Génot, B., Perrin, C., Andréassian, V.\
+   Entrepôt de données (2024)\
+   DOI : <https://doi.org/10.57745/WH7FJR>
+
+1. **CAMELS-FR graphical fact sheets**\
+   Delaigue, O., **Brigode, P.**, Génot, B., Lobligeois, F., Bourgin, P.-Y., Guimarães, G. M.\
+   Entrepôt de données (2024)\
+   DOI : <https://doi.org/10.57745/KK2SVJ>
+
+1. **MADAM: Metropolitan Area Dams**\
+   Delaigue, O., Guimarães, G. M., **Brigode, P.**, Andréassian, V., Payan, J.-L., Steinbach, P., Kreutzenberger, K.\
+   Entrepôt de données (2024)\
+   DOI : <https://doi.org/10.57745/N98NEN>
+
+1. **Simbi database: séries hydro-météorologiques historiques et attributs de bassins versants en Haïti (1905–2005)**\
+   Bathelemy, R., **Brigode, P.**, Andréassian, V., Perrin, C., Moron, V., Gaucherel, C., Tric, E., Boisson, D.\
+   DataSuds (2023)\
+   DOI : <https://doi.org/10.23708/02POK6>
+
+
+## Logiciels
+
+1. **airGRdatasets : jeux de données hydrométéorologiques pour l’écosystème ‘airGR’**\
+   Delaigue, O., **Brigode, P.**, Thirel, G.\
+   Package R v0.0.0.9000 (2022)\
+   GitLab : <https://gitlab.irstea.fr/olivier.delaigue/airgrdatasets>\
+   Rôle : Contributeur (depuis 2022)
+
+1. **airGR : suite de modèles hydrologiques GR pour la modélisation pluie-débit**\
+   Coron, L., Delaigue, O., Thirel, G., Dorchies, D., Perrin, C., Michel, C.\
+   Package R v1.7.0 (2022)\
+   DOI : <https://doi.org/10.15454/EX11NA>\
+   CRAN : <https://CRAN.R-project.org/package=airGR>\
+   Rôle : Contributeur (depuis 2014)
+
+1. **airGRteaching : interface pédagogique pour l’enseignement de la modélisation hydrologique (Shiny inclus)**\
+   Delaigue, O., Coron, L., **Brigode, P.**\
+   Package R v0.2.13 (2022)\
+   DOI : <https://doi.org/10.15454/W0SSKT>\
+   CRAN : <https://CRAN.R-project.org/package=airGRteaching>\
+   Application web : <https://sunshine.inrae.fr/app/airGRteaching>\
+   Rôle : Co-développeur (depuis 2017)
+
+1. **profilsHydro : cartographie des profils longitudinaux de débits des rivières françaises**\
+   Génot, B., Delaigue, O., Andréassian, V., **Brigode, P.**\
+   Application web (2022)\
+   Application : <https://sunshine.inrae.fr/app/profilsHydro>\
+   Rôle : Contributeur (depuis 2020)
