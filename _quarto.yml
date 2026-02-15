@@ -16,6 +16,8 @@ website:
         text: Bases de données et logiciels
       - href: encadrement.qmd
         text: Encadrement
+      - href: cycleau.qmd
+        text: Cycl'eau
 
 format:
   html:

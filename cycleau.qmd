@@ -1,0 +1,22 @@
+---
+title: "Cycl'eau"
+---
+
+### Tour de France (hydrologique) - 2025
+
+Samedi 12 juillet 2025, le peloton a quitté Saint-Méen-le-Grand — village natal de Louison Bobet — pour rejoindre Laval, en traversant une partie de la Bretagne et de la Mayenne. Sur leur route ? Pas moins de 14 rivières franchies ! Saurez-vous retrouver leurs noms ?
+
+Pour vous aider, la carte ci-dessous représente les bassins versants associés à chacune de ces rivières. Un indice : certaines rivières sont des affluents de la Vilaine (en noir), d'autres de la Mayenne (en violet).
+
+À vous de jouer !
+
+![](images/FIG_01_CARTE_BV_TDF2025_ETA08_EXU_30km2__01.png){fig-align="center" width="100%"}
+
+
+::: {.callout-tip collapse="true"} 
+
+## Voir la réponse
+👉 Voici le nom des 14 rivières franchies : 
+![](images/FIG_01_CARTE_BV_TDF2025_ETA08_EXU_30km2__02.png){fig-align="center" width="100%"} 
+
+:::
