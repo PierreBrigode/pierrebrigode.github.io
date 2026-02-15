@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Pierre Brigode"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: publications.qmd
+        text: Publications
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-title: Contenu
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">

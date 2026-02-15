@@ -1,0 +1,63 @@
+################################################################################################################
+# PIERRE BRIGODE - FEVRIER 2022
+#  CREATION DE SHP A PARTIR DE TABLEUR DE COORDONNEES DE SECTIONS / POINTS
+################################################################################################################
+
+
+##################################################################################
+# CHEMINS, FONCTIONS
+##################################################################################
+
+# Librairies
+require(raster)
+require(rgdal)
+require(rgeos)
+require(sp)
+require(maptools)
+require(mapview)
+library(readxl)
+
+# Chemins
+DIR_ROOT      <- "C:/_DATA/"
+DIR_PROJ      <- paste0(DIR_ROOT, "40_RECHERCHE/11_NILAFAR/")
+DIR_DATA      <- paste0(DIR_PROJ, "01_DATA/01_SIG/")
+DIR_OUT       <- paste0(DIR_PROJ, "02_CALCULS/00_SIG/")
+
+
+################################################################################
+# POINTS
+################################################################################
+
+# Fonction
+tmp_FUN       <- function(nom, nom_OUT, nom_XY, tmp_EPSG) {
+  tab_XY        <- read_excel(path=paste0(DIR_DATA, nom, ".xlsx"))
+  tab_XY        <- as.data.frame(tab_XY)
+  tab_XY        <- SpatialPointsDataFrame(coords      = tab_XY[, nom_XY],
+                                          data        = tab_XY,
+                                          proj4string = tmp_EPSG)
+  tab_XY        <- spTransform(x=tab_XY, CRSobj=tmp_EPSG)
+  tmp_DIR       <- substr(x=DIR_OUT, start=1, stop=nchar(DIR_OUT)-1)
+  writeOGR(obj=tab_XY, dsn=tmp_DIR, layer=nom_OUT, driver="ESRI Shapefile", overwrite_layer=TRUE)
+}
+
+# Exutoire "terminal"
+nom           <- "2021.10.25_POINTS_AWASH"
+nom_OUT       <- "AWA"
+nom_XY        <- c("X", "Y")
+tmp_EPSG      <- CRS("+init=EPSG:4326")
+tmp_FUN(nom, nom_OUT, nom_XY, tmp_EPSG)
+
+# Stations hydrométriques
+nom           <- "2022.02.18_STATIONS_HYDRO"
+nom_OUT       <- "STATIONS_HYDRO"
+nom_XY        <- c("X", "Y")
+tmp_EPSG      <- CRS("+init=EPSG:4326")
+tmp_FUN(nom, nom_OUT, nom_XY, tmp_EPSG)
+
+# Apports aux lacs
+nom           <- "2023.02.08_APPORTS_LACS"
+nom_OUT       <- "APPORTS_LACS"
+nom_XY        <- c("X", "Y")
+tmp_EPSG      <- CRS("+init=EPSG:4326")
+tmp_FUN(nom, nom_OUT, nom_XY, tmp_EPSG)
+

@@ -1,0 +1,121 @@
+---
+title: "Publications"
+---
+
+## En relecture ou soumise
+
+1.  **Past trajectory of a Northwest Europe socio-ecosystem at the land-sea interface: Case study of the northern watersheds of the Bay of Brest over the last 150 years**\
+    Valero, C., Penaud, A., Vidal, M., Goubert, E., Dessandier, P.-A., Schmidt, S., Glémarec, E., **Brigode, P.**, Bosseboeuf, L., Paulet, Y.-M., Sutton, J., Ailliot, P., Derrien, J.-M., Niass, N. C., Liorzou, C., Saguet, L., Guérin, T., & Lambert, C.\
+    En relecture dans *Palaeogeography, Palaeoclimatology, Palaeoecology*.\
+    Preprint: <https://doi.org/10.2139/ssrn.5494589>
+
+2.  **On the impact of anomalous streamflow values on hydrological model parameter values, performance and indicator values**\
+    Strohmenger, L., **Brigode, P.**, & Thirel, G.\
+    Soumis à *Hydrological Sciences Journal*.
+
+------------------------------------------------------------------------
+
+## Articles publiés dans des revues à comité de lecture
+
+1.  **Using century-long reanalysis and a rainfall-runoff model to explore multi-decadal variability in catchment hydrology at the European scale**\
+    **Brigode, P.** & Oudin, L.\
+    *Hydrology and Earth System Sciences* (2025)\
+    <https://doi.org/10.5194/hess-29-5535-2025>
+
+2.  **Wet snow avalanches on Corsica Island: a long-term perspective from lake sediments**\
+    Sabatier, P., **Brigode, P.**, et al.\
+    *Sedimentologika* (2025)\
+    <https://doi.org/10.57035/journals/sdk.2025.e31.1669>
+
+3.  **Improved predictions in ungauged basins using flood marks**\
+    Oudin, L., Caupin, R., & **Brigode, P.**\
+    *Journal of Hydrology* (2025)\
+    <https://doi.org/10.1016/j.jhydrol.2025.133145>
+
+4.  **CAMELS-FR dataset: a large-sample hydroclimatic dataset for France to explore hydrological diversity and support model benchmarking**\
+    Delaigue, O., Mendoza Guimarães, G., **Brigode, P.**, et al.\
+    *Earth System Science Data* (2025)\
+    <https://doi.org/10.5194/essd-17-1461-2025>
+
+5.  **Spatio-temporal characteristics of heavy precipitation events observed over the last decade on the Eastern French Mediterranean coastal area**\
+    Vigoureux, S., **Brigode, P.**, et al.\
+    *Journal of Hydrology: Regional Studies* (2024)\
+    <https://doi.org/10.1016/j.ejrh.2024.101988>
+
+6.  **The IAHS Science for Solutions decade, with Hydrology Engaging Local People IN a Global world (HELPING)**\
+    Arheimer, B. et al.\
+    *Hydrological Sciences Journal* (2024)\
+    <https://doi.org/10.1080/02626667.2024.2355202>
+
+7.  **50-Year Seasonal Variability in East African Droughts and Floods Recorded in Central Afar Lake Sediments (Ethiopia)**\
+    Mologni, C., **Brigode, P.**, et al.\
+    *Climate of the Past* (2024)\
+    <https://doi.org/10.5194/cp-20-1837-2024>
+
+8.  **On the visual detection of non-natural records in streamflow time series: challenges and impacts**\
+    Strohmenger, L., **Brigode, P.**, et al.\
+    *Hydrology and Earth System Sciences* (2023)\
+    <https://doi.org/10.5194/hess-27-3375-2023>
+
+9.  **airGRteaching: an open-source tool for teaching hydrological modeling with R**\
+    Delaigue, O., **Brigode, P.**, et al.\
+    *Hydrology and Earth System Sciences* (2023)\
+    <https://doi.org/10.5194/hess-27-3293-2023>
+
+10. **How can we benefit from regime information to make more effective use of long short-term memory (LSTM) runoff models?**\
+    Hashemi, R., **Brigode, P.**, et al.\
+    *Hydrology and Earth System Sciences* (2022)\
+    <https://doi.org/10.5194/hess-26-5793-2022>
+
+*(Vous pouvez continuer sur ce modèle pour le reste — j’ai volontairement raccourci les listes très longues avec “et al.” pour alléger la lecture web.)*
+
+------------------------------------------------------------------------
+
+## Articles dans des actes de colloques avec comité de lecture
+
+1.  **Are hydrologic-hydraulic coupling approaches able to reproduce Alex flash-flood dynamics?**\
+    **Brigode, P.**, et al.\
+    In *Advances in Hydroinformatics* (2022)\
+    <https://doi.org/10.1007/978-981-19-1600-7_27>
+
+2.  **Simulation of the Alex Storm Flash-Flood in the Vésubie Catchment**\
+    Yassine, R., **Brigode, P.**, et al.\
+    In *Advances in Hydroinformatics* (2022)\
+    <https://doi.org/10.1007/978-981-19-1600-7_52>
+
+------------------------------------------------------------------------
+
+## Articles sans comité de lecture
+
+-   **Les cours d’eau sous leur meilleur ProfHyl**\
+    Delaigue, O., **Brigode, P.**, et al. (2023).\
+    *Sciences Eaux & Territoires*\
+    <https://doi.org/10.20870/Revue-SET.2023.42.7291>
+
+------------------------------------------------------------------------
+
+## Chapitre de livres
+
+-   **Reconstitution historique des séries hydrologiques**\
+    In *Les ressources en eau et le changement climatique en Provence-Alpes-Côte d’Azur* (2017).
+
+------------------------------------------------------------------------
+
+## Thèse et rapport de Master
+
+-   **Changement climatique et risque hydrologique : évaluation de la méthode SCHADEX en contexte non-stationnaire**\
+    **Brigode, P.** (2013). PhD thesis.\
+    <https://tel.archives-ouvertes.fr/tel-00851384/>
+
+-   **Modélisation hydrologique en contexte de changement climatique**\
+    **Brigode, P.** (2010). Master thesis.
+
+------------------------------------------------------------------------
+
+## Rapports techniques
+
+-   **Lutte contre les inondations sur le bassin versant de la Zorn**\
+    Nicolle, P., **Brigode, P.** & Perrin, C. (2015).
+
+-   **Reconstitution de 55 années de débits sur plus de 10 000 points non-jaugés en France**\
+    **Brigode, P.**, et al. (2014).
