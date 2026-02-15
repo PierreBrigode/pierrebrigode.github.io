@@ -1,0 +1,66 @@
+---
+title: "CV"
+---
+
+## Parcours professionnel
+- **2023 – …** : Chaire de Professeur Junior (CPJ), [École Normale Supérieure de Rennes](https://www.ens-rennes.fr/), UMR [Géosciences Rennes](https://geosciences.univ-rennes.fr/) (Rennes)
+- **2015 – 2023** : Maître de conférences, Université Côte d’Azur, UMR Géoazur (Nice)
+- **2014 – 2015** : Post-doctorat, École de Technologie Supérieure (ÉTS, Montréal, Canada)
+- **2013 – 2014** : Post-doctorat, Irstea (désormais INRAE, Antony)
+
+## Formation
+- **2013** : Doctorat en Hydrologie, Université Pierre et Marie Curie, UMR Sisyphe (Paris)
+- **2010** : Master en Hydrologie et Hydrogéologie, Université Pierre et Marie Curie (Paris)
+- **2008** : Licence en Sciences de la Terre et de l’Environnement, Université de Cergy-Pontoise
+
+## Responsabilités administratives
+- **2023 – …** : Directeur du département Sciences pour l’Environnement, ENS Rennes
+- **2018 – 2021** : Directeur du département Génie de l’Eau, Polytech Nice Sophia
+
+## Enseignement
+
+- **ENS Rennes et Université de Rennes (depuis 2023)** : hydrologie, changement climatique, hydrométrie, projets inter-disciplinaires
+- **Polytech Nice Sophia (Université Côte d’Azur, 2015-2021)** : 300 h eq. TD/an en hydrologie, modélisation pluie-débit, hydrométrie et programmation R.
+- **International** : professeur invité à l’Université d’Etat d’Haïti, 2019, 2 semaines de cours
+- **Ressources pédagogiques** : co-développement du [paquet R airGRteaching](https://CRAN.R-project.org/package=airGRteaching) pour l’enseignement de la modélisation pluie-débit
+- **Formation avancée** : ateliers écoles d’été "ImpactHydro" (2019, 2022, 2023, 2025)
+
+## Recherche
+
+### Production scientifique et collaborations
+
+- **Articles et communications** : cf. [page dédiée](publications.qmd).
+- **Bases de données et logiciels** : cf. [page dédiée](data_software.qmd).
+- **Échanges scientifiques** :
+  - 2021 - 2023 : délégation UR HYCAR, INRAE
+  - 2018 : professeur invité à l’INRS-ETE, Québec (2 mois)
+  - 2017 : chercheur invité, Centre d’Expertise Hydrique du Québec (2 mois)
+
+### Science et société
+
+- **Conseils d’administration** :
+  - 2023 – … : [Fondation de l’eau de Groupama Méditerranée](https://fondation-eau-groupama.com/).
+  - 2025 – … : [CRESEB](https://www.creseb.fr/).
+- **Vulgarisation** :
+  - Pint of Science 2017 et 2022
+  - Articles "The Conversation" :  cf. [page dédiée](index.qmd##articles-de-synthese).
+  - Interviews suite à des crues ou sécheresses marquantes : cf. [page dédiée](index.qmd#interventions-récentes-dans-les-médias).
+
+### Animation
+
+- **Locales et régionales**
+  - 2024 – … : co-responsable de l’[équipe "Eaux et territoires", Géosciences Rennes](https://geosciences.univ-rennes.fr/eaux-et-territoires).
+  -  Comités scientifiques : EduMed-Obs (2019-2023), Observatoire de l’eau des Alpes-Maritimes (2022-2023), FEDER "Alpes Risques" (2023-2027).
+- **Nationales et internationales**
+  - 2024 – … : secrétaire du Comité National Français des Sciences Hydrologiques (branche française de l’IAHS).
+  - Animation de conférences :
+    - 2021, 2023 : co-convener session "Hydro(géo)logie", Réunions des Sciences de la Terre (RST).
+    - 2022 : convener du workshop "When are hydrological data informative (or not)? Testing for information content in the face of sources of uncertainty", Assemblée Scientifique de l’IAHS.
+
+### Encadrement
+
+Détails sur la [page dédiée](encadrement.qmd). Nombre d'étudiants encadrés ou co-encadrés :
+
+- **Doctorants** : 5 (3 en cours) 
+- **Post-doctorants** : 1 (1 en cours).
+- **Stagiaires** : 30 dont 8 de niveau M2.

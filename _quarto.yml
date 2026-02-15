@@ -8,10 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Accueil
+      - href: CV.qmd
+        text: CV
       - href: publications.qmd
         text: Publications
       - href: data_software.qmd
         text: Bases de données et logiciels
+      - href: encadrement.qmd
+        text: Encadrement
 
 format:
   html:

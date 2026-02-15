@@ -1,0 +1,160 @@
+---
+title: "Encadrement"
+---
+
+## Doctorants
+
+1. **Elian GILLET** (2025–2028) – *en cours*\
+   Crues passées et futures sur le bassin de la Vilaine.
+
+2. **Enzo MAUGAN** (2025–2028) – *en cours*\
+   Modélisation hydrogéologique des bassins versants non jaugés.
+
+3. **Hélène GILLET** (2024–2027) – *en cours*\
+   Prévision des étiages dans les Alpes-Maritimes.
+
+4. **Sarah VIGOUREUX** (2021–2024)\
+   [Prévision des inondations sur la Côte d’Azur.](https://theses.hal.science/tel-04976071)\
+   Situation actuelle : prévisionniste de crues au SPC Med-Est.
+
+5. **Ralph BATHELEMY** (2020–2023)\
+   [Monographie hydrologique d’Haïti.](https://hal.science/tel-04361205v1)\
+   🏆 **Prix de thèse Gérard Beltrando**\
+   Situation actuelle : post-doc à l'Université de Sherbrooke.
+
+
+## Post-doctorat
+
+1. **Juan Pablo SIERRA PEREZ** (2025–2026) – *en cours*\
+   Hydroclimatologie des lacs Abhé (Éthiopie).
+
+
+## Stagiaires
+
+### Master 2
+
+1. **Pape Saara NGOM** (2025)\
+   *Bilan et dynamique hydrologique du fleuve endoréique Awash (Ethiopie) et de ses lacs exutoires durant les dernières décennies.*\
+   Master 2 Sciences de la Terre et des planètes, Université Grenoble Alpes.
+
+1. **Maëliss ETHIS DE CORNY** (2025, 6 mois, co-encadrée avec Jean-Raynald DE DREUZY)\
+   *Modélisation des étiages de bassins versants non jaugés : Analyse des performances d’une méthode de régionalisation hydrologique à l’échelle de la région Bretagne.*\
+   Master 2 Sciences de l’Eau, Université de Rennes.
+
+1. **Anouaar CHEIKH LARAFA** (2021, 6 mois, co-encadré avec Mohamed SAADI, Frédéric GOB et Ludovic OUDIN)\
+   *Rôle de l’urbanisation sur les crues morphogènes de petits bassins versants péri-urbains : analyse sur les 150 dernières années.*\
+   Master 2 Hydrologie, Hydrogéologie et Géochimie Environnementale, Sorbonne Université.
+
+1. **Marion MESUREUX** (2020, 6 mois, co-encadrée avec Yoann BRESSANT)\
+   *Identification des facteurs induisant la construction de barrages par le castor et typologie de ces barrages en fonction du contexte.*\
+   Master 2 Biodiversité, écologie et évolution, Université d’Aix-Marseille.
+
+1. **Ralph BATHELEMY** (2019, 5 mois)\
+   *Définition de seuils critiques de cumul de pluie pour l’anticipation des inondations en Haïti.*\
+   Master 2 Géosciences appliquées aux Géorisques, Faculté des Sciences de l’Université d’État d’Haïti.
+
+1. **Lise DEVREUX** (2018, 5 mois)\
+   *Quantification des impacts hydro-morphologiques des barrages de castors.*\
+   Master 2 Hydroprotech, Université Côte d’Azur.
+
+1. **Solène JEGONDAY** (2017, 6 mois, co-encadrée avec Bruno WILHELM)\
+   *Peut-on reconstituer de longues séries de crues par modélisation pluie-débit à partir d’une réanalyse atmosphérique globale ?*\
+   Master 2 Hydro3, Université Rennes 1.
+
+1. **Maxime GÉRARDIN** (2012, 6 mois)\
+   *Comment incorporer à la méthode SCHADEX l’information contenue dans les simulations du climat futur ? Une étude exploratoire.*\
+   Master 2 Hydrologie et Hydrogéologie, Université Pierre et Marie Curie.
+
+
+### Master 1
+
+1. **Armand BOURREAU** (2025, 2 mois)\
+   *Réanalyse hydrologique de la crue de la Vilaine de janvier 2025 et comparaison avec les crues historiques du bassin.*\
+   Stage de M1 Sciences de l’Eau, Université de Rennes.
+
+1. **Cyril KLECZEWSKI** (2024, 3 mois, co-encadré avec Ludovic OUDIN)\
+   *Réanalyses hydrologiques des tempêtes Alex et Aline sur les bassins versants maralpins : quel apport des données sismologiques ?*\
+   Stage de M1 Sciences de l’Eau, Université de Rennes.
+
+1. **Romain CAUPIN** (2024, 4 mois, co-encadré avec Ludovic OUDIN)\
+   *Utilisation de repères de crue lors de calages de modèles hydrologiques.*\
+   Stage de M1 HHGE, Sorbonne Université.
+
+1. **Malcolm VALLEE** (2021, 6 mois, co-encadré avec Ludovic OUDIN, co-financé par l’Institut de la Mer de l’Alliance Sorbonne Université)\
+   *Croisement des signatures hydro-climatiques et sédimentaires relevées à terre et en mer lors de crues sur la Côte d’Azur.*\
+   Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Léo CARRIBA-DEMANGE** (2021, 6 mois, co-encadré avec Olivier DELESTRE et Pierre-Yves LAGRÉE, co-financé par Polytech Nice Sophia)\
+   *Comment injecter des débits dans un domaine de calcul Basilisk ?*\
+   Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Sarah VIGOUREUX** (2020, 6 mois)\
+   *Modélisation hydrologique et hydraulique des crues de 2019 sur la Côte d’Azur, comparaison avec la crue d’octobre 2015.*\
+   Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Zied AMAMA** (2020, 3 mois, co-encadré avec Olivier DELESTRE et Pierre-Yves LAGRÉE, co-financé par une bourse du GdR EGRIN)\
+   *Modélisation des inondations : quantification des améliorations induites par la prise en compte des buses dans Basilisk.*\
+   Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Étienne ROBERT** (2020, 2 mois, co-encadré avec Olivier DELESTRE)\
+   *Inondations sur la Côte d’Azur : quel est l’impact de la prise en compte du débit de base sur les simulations Basilisk ?*\
+   Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Thibaut COTTANCIN** (2020, 2 mois)\
+   *Simulation d’inondation avec Basilisk : sensibilité aux modèles numériques de terrain (MNT) et d’élévation (MNE) considérés.*\
+   Stage de M1 Hydroprotech, Polytech Nice Sophia.
+
+1. **Simon ROUDAUT** (2020, 2 mois)\
+    *Simulation des inondations de novembre et décembre 2019 avec Basilisk sur plusieurs bassins versants côtiers de la Côte d’Azur.*\
+    Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Nicolas GUÉRIN** (2019, 3 mois)\
+    *Quantification des impacts du changement climatique sur l’hydrologie du bassin de la Roya.*\
+    Stage de M1 Hydroprotech, Polytech Nice Sophia.
+
+1. **Maxime AUFFRET** (2019, 3 mois)\
+    *Définition de seuils critiques de cumuls de pluies pour l’anticipation des inondations de la Côte d’Azur.*\
+    Stage de M1 Hydroprotech, Polytech Nice Sophia.
+
+1. **Yoan WACOGNE** (2019, 3 mois)\
+    *Quantification des changements hydrologiques liés aux changements d’occupation du sol : exemple des feux de forêts.*\
+    Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Quentin ROUX** (2018, 3 mois)\
+    *Bilan hydro-climatique et modélisation pluie-débit sur le bassin versant de la Roya.*\
+    Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Junjiang DENG** (2017, 2 mois)\
+    *L’intensité des épisodes pluvieux est-elle contrôlée par la température de l’air (et donc par la relation de Clausius-Clapeyron) ?*\
+    Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Peng HUANG** (2017, 2 mois)\
+    *Bilan hydro-climatique et calage d’un modèle pluie débit sur le bassin versant de la Siagne.*\
+    Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Lei ZHENGMIN** (2016, 2 mois)\
+    *Comparaison de trois bases de données climatiques pour la modélisation pluie-débit en PACA et en Corse.*\
+    Stage de 4ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+
+### Licence
+
+1. **Léa D’OLIVEIRA** (2019, 1 mois)\
+   *Analyse de la variabilité spatiale et temporelle des épisodes pluvieux historiques de la région de Cannes.*\
+   Stage de L3 Sciences de la Terre et de l’Environnement, Université de Nice.
+
+1. **Thomas LAVEDRINE** (2019, 1 mois)\
+   *Calage et validation d’un modèle pluie-débit au pas de temps horaire sur le bassin versant de la Mourachonne à Pégomas.*\
+   Stage de L3 Sciences de la Terre et de l’Environnement, Université de Nice.
+
+1. **Yi TANG** (2017, 1 mois)\
+   *Construction d’un sujet de TP portant sur la mesure de débit de rivières par analyse de séquences d'images.*\
+   Stage de 3ᵉ année d’école d’ingénieur, Polytech Nice Sophia.
+
+1. **Nicolas FANTINO** (2016, 1 mois)\
+   *L’observation de crues et d’étiages est-elle liée à la fréquence de certains types de temps ?*\
+   Stage de L3 Sciences de la Terre et de l’Environnement, Université de Nice.
+
+1. **Huanyu ZHAI** (2016, 2 mois)\
+   *Synthèse bibliographique des données hydro-climatiques disponibles dans le Bassin du Lac Tchad.*\
+   Stage de 3ᵉ année d’école d’ingénieur, Polytech Nice Sophia.

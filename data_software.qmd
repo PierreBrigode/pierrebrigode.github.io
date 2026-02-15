@@ -19,7 +19,7 @@ title: "Bases de données et logiciels"
    Entrepôt de données (2024)\
    DOI : <https://doi.org/10.57745/N98NEN>
 
-1. **Simbi database: séries hydro-météorologiques historiques et attributs de bassins versants en Haïti (1905–2005)**\
+1. **Simbi database: historical hydro-meteorological time series and catchment attributes in Haiti, 1905-2005**\
    Bathelemy, R., **Brigode, P.**, Andréassian, V., Perrin, C., Moron, V., Gaucherel, C., Tric, E., Boisson, D.\
    DataSuds (2023)\
    DOI : <https://doi.org/10.23708/02POK6>
@@ -27,20 +27,20 @@ title: "Bases de données et logiciels"
 
 ## Logiciels
 
-1. **airGRdatasets : jeux de données hydrométéorologiques pour l’écosystème ‘airGR’**\
+1. **airGRdatasets : Hydro-Meteorological Catchments Datasets for the ’airGR’ Galaxy**\
    Delaigue, O., **Brigode, P.**, Thirel, G.\
    Package R v0.0.0.9000 (2022)\
    GitLab : <https://gitlab.irstea.fr/olivier.delaigue/airgrdatasets>\
    Rôle : Contributeur (depuis 2022)
 
-1. **airGR : suite de modèles hydrologiques GR pour la modélisation pluie-débit**\
+1. **airGR : Suite of GR Hydrological Models for Precipitation-Runoff Modelling**\
    Coron, L., Delaigue, O., Thirel, G., Dorchies, D., Perrin, C., Michel, C.\
    Package R v1.7.0 (2022)\
    DOI : <https://doi.org/10.15454/EX11NA>\
    CRAN : <https://CRAN.R-project.org/package=airGR>\
    Rôle : Contributeur (depuis 2014)
 
-1. **airGRteaching : interface pédagogique pour l’enseignement de la modélisation hydrologique (Shiny inclus)**\
+1. **airGRteaching : Teaching Hydrological Modelling with GR Rainfall-Runoff Models (Shiny Interface Included)**\
    Delaigue, O., Coron, L., **Brigode, P.**\
    Package R v0.2.13 (2022)\
    DOI : <https://doi.org/10.15454/W0SSKT>\
@@ -48,7 +48,7 @@ title: "Bases de données et logiciels"
    Application web : <https://sunshine.inrae.fr/app/airGRteaching>\
    Rôle : Co-développeur (depuis 2017)
 
-1. **profilsHydro : cartographie des profils longitudinaux de débits des rivières françaises**\
+1. **profilsHydro : Mapping of streamflows longitudinal profiles of French rivers**\
    Génot, B., Delaigue, O., Andréassian, V., **Brigode, P.**\
    Application web (2022)\
    Application : <https://sunshine.inrae.fr/app/profilsHydro>\
