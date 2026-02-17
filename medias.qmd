@@ -1,0 +1,77 @@
+---
+title: "Médias"
+---
+
+## 📝 Articles de synthèse
+
+- [Inondations : l’aménagement du territoire est-il responsable ?](https://theconversation.com/inondations-lamenagement-du-territoire-est-il-responsable-274443) *The Conversation, février 2026*
+
+- [Comment les petites sources peuvent-elles devenir de grands fleuves ?](https://theconversation.com/antoine-comment-les-petites-sources-peuvent-elles-devenir-de-grands-fleuves-178656) *The Conversation Junior, mars 2022.*
+
+
+## 🎙️ Interventions dans les médias
+
+Les citations et analyses présentées ci-dessous résultent d’échanges journalistiques, qui impliquent nécessairement un travail de synthèse et de reformulation.
+
+
+### 🌊 Inondations de début 2026
+
+- [Crues et inondation dans le Sud-Ouest : "On est en train de vivre le futur".](https://www.sudouest.fr/environnement/crues-et-inondation-dans-le-sud-ouest-on-est-en-train-de-vivre-le-futur-27898255.php) *Sud Ouest, février 2026*
+
+- [Crue généralisée : la lutte contre les évènements climatiques extrêmes implique "des choix collectifs à opérer".](https://www.humanite.fr/environnement/inondations/crue-generalisee-la-lutte-contre-les-evenements-climatiques-extremes-implique-des-choix-collectifs-a-operer) *l'Humanité, février 2026.*
+
+- [Barrages, digues pour lutter contre les inondations… "C’est une fuite en avant", selon un hydrologue.](https://www.ouest-france.fr/meteo/inondation/barrages-digues-pour-lutter-contre-les-inondations-cest-une-fuite-en-avant-selon-un-hydrologue-27c8dd4c-fd28-11f0-9ec7-95d99014da7d) *Ouest-France, février 2026.*
+
+```{=html}
+<!-- 
+> "Les barrages et les digues ne peuvent pas constituer une réponse unique aux inondations"
+-->
+```
+
+### 🌊 Inondation de janvier 2025 en Bretagne
+
+-   ["On a créé des autoroutes à inondations" : en Ille-et-Vilaine, l’ombre du remembrement plane sur la crue de janvier.](https://www.letelegramme.fr/ille-et-vilaine/rennes-35000/on-a-cree-des-autoroutes-a-inondations-en-ille-et-vilaine-lombre-du-remembrement-plane-sur-la-crue-de-janvier-6756213.php) *Le Télégramme, février 2025.*
+
+-   ["Psychologiquement, c’est compliqué à vivre" : en Ille-et-Vilaine, le désarroi des habitants qui redoutent de nouvelles crues.](https://www.humanite.fr/environnement/crues/psychologiquement-cest-complique-a-vivre-en-ille-et-vilaine-le-desarroi-des-habitants-qui-redoutent-de-nouvelles-crues) *L’Humanité, janvier 2025.*
+
+
+### ☀️ Sécheresse 2023 dans les Alpes-Maritimes
+
+Série "Carnet de bord" publiée dans Nice Matin, retraçant le suivi de la sécheresse de l'été 2023 dans les Alpes-Maritimes.
+
+-   ["S’il ne pleut pas de manière significative sous peu, on ira vers une sécheresse impactante pour la vie des gens."](https://www.nicematin.com/environnement/carnet-de-bord-s-il-ne-pleut-pas-de-maniere-significative-sous-peu-on-ira-vers-une-secheresse-impactante-pour-la-vie-des-gens-839558) *Nice Matin, avril 2023.*
+
+-   ["Nous lançons une recherche dédiée à la prévision des sécheresses sur les Alpes-Maritimes"](https://www.nicematin.com/meteo/climat/carnet-de-bord-nous-lancons-une-recherche-dediee-a-la-prevision-des-secheresses-sur-les-alpes-maritimes-851746) *Nice Matin, juin 2023.*
+
+-   ["C’est assez catastrophique de parler climat sur les réseaux sociaux comme au café du commerce, sans considérer le travail des scientifiques"](https://www.nicematin.com/meteo/climat/secheresse-c-est-assez-catastrophique-de-parler-climat-sur-les-reseaux-sociaux-comme-au-cafe-du-commerce-sans-considerer-le-travail-des-scientifiques-863862) *Nice Matin, juillet 2023.*
+
+-   ["Ce qui nous préoccupe c'est l'enchaînement des sécheresses hivernales et estivales d'une année sur l'autre". Un hydrologue alerte.](https://www.nicematin.com/meteo/climat/ce-qui-nous-preoccupe-c-est-l-enchainement-des-secheresses-hivernales-et-estivales-d-une-annee-sur-l-autre-un-hydrologue-alerte-875998) *Nice Matin, septembre 2023.*
+
+-   [Cet hydrologue tire les leçons de la sécheresse record: Il faut investir du temps et de l’argent pour observer nos territoires](https://www.nicematin.com/meteo/climat/cet-hydrologue-tire-les-lecons-de-la-secheresse-record-il-faut-investir-du-temps-et-de-l-argent-pour-observer-nos-territoires-890356) *Nice Matin, décembre 2023.*
+
+### 🌊 Tempête Alex (2020) dans les Alpes-Maritimes
+
+-   [Intempéries : pourquoi est-il si difficile de prédire les inondations qui ravagent le sud-est de la France ?](https://www.francetvinfo.fr/meteo/climat/intemperies-pourquoi-est-il-si-difficile-de-predire-les-inondations-qui-ravagent-le-sud-est-de-la-france_4683143.html) *France Info, octobre 2021.*
+
+-   [Tempête Alex : un événement hors norme pour l’étude des crues extrêmes.](https://www.insu.cnrs.fr/fr/cnrsinfo/tempete-alex-un-evenement-hors-norme-pour-letude-des-crues-extremes) *CNRS INSU, avril 2021.*
+
+-   [Inédit, l’épisode méditerranéen du 2 octobre fera cas d’école.](https://newsroom.univ-cotedazur.fr/inedit-lepisode-mediterraneen-du-2-octobre-fera-cas-decole-1) *UCA Newsroom, novembre 2020.*
+
+-   [Dans la Roya, "tout est figé, on est resté bloqués à samedi".](https://www.liberation.fr/terre/2020/10/09/dans-la-roya-tout-est-fige-on-est-reste-bloques-a-samedi_1801963/) *Libération, octobre 2020.*
+
+-   [Tempête Alex dans les Alpes-Maritimes : "Les rivières ne s’écouleront plus aux mêmes endroits", analyse un hydrologue.](https://www.20minutes.fr/planete/2880335-20201008-tempete-alex-alpes-maritimes-rivieres-ecouleront-plus-memes-endroits-analyse-hydrologue) *20 Minutes, octobre 2020.*
+
+
+## 🎤️ Conférences "grand public"
+
+- Reconstituer le passé d’une rivière pour mieux prédire ses humeurs. Pint of Science, 2017, 2022.
+
+- Que s'est-il passé le 2 octobre ? Festival des passeurs d'humanité 2021, Breil-sur-Roya.
+
+
+## 🎧 Podcasts et reportages
+
+- Hors de contrôle : La tempête Alex de 2020. *Documentaire de 50 minutes réalisé par Simon Viguié en 2021, RMC Story.*
+
+- Un an après Alex, quelle reconstruction pour la vallée de la Roya ? *Grand reportage de Pauline Bandelier, RFI, septembre 2021.*
+
