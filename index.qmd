@@ -63,15 +63,9 @@ Vous trouverez [ici une liste d'exhaustive de mes interventions](medias.qmd).
 
 ### 🌊 Inondations de début 2026
 
-- [Crues et inondation dans le Sud-Ouest : "On est en train de vivre le futur".](https://www.sudouest.fr/environnement/crues-et-inondation-dans-le-sud-ouest-on-est-en-train-de-vivre-le-futur-27898255.php) *Sud Ouest, février 2026*
+- [ENTRETIEN. "Artificialisation, urbanisation, suppression des haies" : ces actions humaines qui aggravent les crues.](https://www.ouest-france.fr/meteo/inondation/entretien-artificialisation-urbanisation-drainage-suppression-des-haies-ces-aleas-qui-aggravent-les-crues-be363866-0c04-11f1-b839-4d59eb76df60) *Ouest France, février 2026*
 
 - [Crue généralisée : la lutte contre les évènements climatiques extrêmes implique "des choix collectifs à opérer".](https://www.humanite.fr/environnement/inondations/crue-generalisee-la-lutte-contre-les-evenements-climatiques-extremes-implique-des-choix-collectifs-a-operer) *l'Humanité, février 2026.*
-
-- [Barrages, digues pour lutter contre les inondations… "C’est une fuite en avant", selon un hydrologue.](https://www.ouest-france.fr/meteo/inondation/barrages-digues-pour-lutter-contre-les-inondations-cest-une-fuite-en-avant-selon-un-hydrologue-27c8dd4c-fd28-11f0-9ec7-95d99014da7d) *Ouest-France, février 2026.*
-
-```{=html}
-> "Les barrages et les digues ne peuvent pas constituer une réponse unique aux inondations"
-```
 
 
 ### 🌊 Inondation de janvier 2025 en Bretagne
